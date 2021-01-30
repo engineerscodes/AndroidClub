@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/AndroidClub/static/css/main.1b31a0d0.chunk.css",
-    "main.js": "/AndroidClub/static/js/main.c316f51a.chunk.js",
-    "main.js.map": "/AndroidClub/static/js/main.c316f51a.chunk.js.map",
+    "main.css": "/AndroidClub/static/css/main.883eeee1.chunk.css",
+    "main.js": "/AndroidClub/static/js/main.5fa438b8.chunk.js",
+    "main.js.map": "/AndroidClub/static/js/main.5fa438b8.chunk.js.map",
     "runtime-main.js": "/AndroidClub/static/js/runtime-main.c20debe8.js",
     "runtime-main.js.map": "/AndroidClub/static/js/runtime-main.c20debe8.js.map",
-    "static/js/2.495f68bf.chunk.js": "/AndroidClub/static/js/2.495f68bf.chunk.js",
-    "static/js/2.495f68bf.chunk.js.map": "/AndroidClub/static/js/2.495f68bf.chunk.js.map",
+    "static/js/2.1bccccfa.chunk.js": "/AndroidClub/static/js/2.1bccccfa.chunk.js",
+    "static/js/2.1bccccfa.chunk.js.map": "/AndroidClub/static/js/2.1bccccfa.chunk.js.map",
     "index.html": "/AndroidClub/index.html",
-    "static/css/main.1b31a0d0.chunk.css.map": "/AndroidClub/static/css/main.1b31a0d0.chunk.css.map",
-    "static/js/2.495f68bf.chunk.js.LICENSE.txt": "/AndroidClub/static/js/2.495f68bf.chunk.js.LICENSE.txt",
+    "static/css/main.883eeee1.chunk.css.map": "/AndroidClub/static/css/main.883eeee1.chunk.css.map",
+    "static/js/2.1bccccfa.chunk.js.LICENSE.txt": "/AndroidClub/static/js/2.1bccccfa.chunk.js.LICENSE.txt",
     "static/media/Image.2c0445ca.svg": "/AndroidClub/static/media/Image.2c0445ca.svg",
     "static/media/video.079f09e3.mp4": "/AndroidClub/static/media/video.079f09e3.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.c20debe8.js",
-    "static/js/2.495f68bf.chunk.js",
-    "static/css/main.1b31a0d0.chunk.css",
-    "static/js/main.c316f51a.chunk.js"
+    "static/js/2.1bccccfa.chunk.js",
+    "static/css/main.883eeee1.chunk.css",
+    "static/js/main.5fa438b8.chunk.js"
   ]
 }

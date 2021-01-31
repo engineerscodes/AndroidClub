@@ -1,16 +1,16 @@
-import React ,{Component} from 'react';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
 //import Navbar from './components/NavBar/NavBar';
-import { BrowserRouter as Router ,Switch,Route} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 /*import SideBar from './components/SlideBar/sideBar';
 import Banner from './components/Banner/Banner'
 import About from './components/About/About';
 import {AboutInfo,Anncounment} from './components/About/infoAbout' */
 
-import TeamMain from './components/Teams/TeamMain.js'
-import HomePage from './RouterPages/HomePage';
+import TeamMain from "./components/Teams/TeamMain.js";
+import HomePage from "./RouterPages/HomePage";
 
-import ScrollToTop from './components/ScrollToTop'
+import ScrollToTop from "./components/ScrollToTop";
 
 
 class App extends Component 
@@ -38,7 +38,7 @@ export default App;
 //<TeamMain/>
 
 /**
- * 
- * 
- * 
+ *
+ *
+ *
  */

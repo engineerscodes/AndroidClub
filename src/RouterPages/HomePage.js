@@ -15,6 +15,9 @@ import TeamCoursels from '../components/TeamCoursel/TeamCoursels';
 import Footers from '../components/Footer/Footers';
 import { InputData } from '../components/TeamCoursel/InputData';
 
+import CardComponent from '../components/Cards/CardComponent'
+
+
 class HomePage extends Component 
  {  
     state ={ isOpen :false}
@@ -46,8 +49,12 @@ class HomePage extends Component
             
             <ButtonRouterLink gotoPage={'/Team'} textdes={ "VIEW" }/>
       </DisplayList>
+
+         
+          <CardComponent/>
           
          <Footers/>
+        
         </>
     )
  }

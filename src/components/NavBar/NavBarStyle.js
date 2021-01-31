@@ -6,7 +6,7 @@ import {Link as LinkS} from 'react-scroll'
 export const Nav =styled.nav`
  background :#000;
  height :80px;
-
+ 
 display :flex;
 justify-content :center;
 align-items :center;
@@ -92,12 +92,14 @@ height :100%;
 cursor :pointer;
 font-size:20px;
 font-weight :bolder;
-&.active {
-    border-bottom :3px solid #01bf71;
+&.active{
+    border-bottom :3.5px solid ;
+    border-color :${({boderbg})=>(boderbg ==="true"? "#01bf71":"#fff")};
+    
 }
 &:hover{
     color :#01bf71;
-   
+    
 }
 
 `;

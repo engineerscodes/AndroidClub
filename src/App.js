@@ -12,19 +12,23 @@ import HomePage from "./RouterPages/HomePage";
 
 import ScrollToTop from "./components/ScrollToTop";
 
-class App extends Component {
-  render() {
-    return (
-      <Router>
-        <ScrollToTop />
-        <div className="App">
-          <Switch>
-            <Route path="/AndroidClub" component={HomePage} exact />
-            <Route path="/Team" component={TeamMain} />
-          </Switch>
-        </div>
-      </Router>
-    );
+
+class App extends Component 
+{  
+  
+  render(){
+  return (
+    <Router>
+    <ScrollToTop/>
+ <div className="App">
+ <Switch>
+        <Route path='/AndroidClub' component={HomePage} exact/>
+        <Route path='/Team' component={TeamMain} />
+      
+       </Switch> 
+ </div>
+ </Router>
+  );
   }
 }
 

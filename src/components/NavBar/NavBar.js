@@ -5,10 +5,11 @@ import {Nav,NavBarContainer,NavLogo,MobileIcon,NavMenu,NavItem,NavLinks } from '
 
 import {FaBars} from 'react-icons/fa'
 
-
+let greengb='true';
+let whitebg='false';
 
 const Navbar =(props)=>{ return ( 
-<>
+<>  
   <Nav>
     <NavBarContainer>
         <NavLogo to='/'>
@@ -21,11 +22,47 @@ const Navbar =(props)=>{ return (
           <FaBars/>
         </MobileIcon>
         <NavMenu>
-          <NavItem><NavLinks  to='about'>HOME</NavLinks> </NavItem>
-          <NavItem><NavLinks to='event' >EVENT'S</NavLinks></NavItem>
-          <NavItem><NavLinks to='team'>TEAM</NavLinks></NavItem>
-          <NavItem><NavLinks to='announcement'>ANNOUNCEMENT</NavLinks></NavItem>
-          <NavItem><NavLinks to='contact'>CONTACT</NavLinks></NavItem>
+          <NavItem>
+            <NavLinks  to='about' smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
+            boderbg={greengb}
+            
+            >HOME</NavLinks> 
+            </NavItem>
+          <NavItem><NavLinks to='event'
+          smooth={true}
+          duration={500}
+          spy={true}
+          exact="true"
+          offset={-80}
+          >EVENT'S</NavLinks></NavItem>
+          <NavItem><NavLinks to='team'smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
+            boderbg={greengb}
+          
+          >TEAM</NavLinks></NavItem>
+          <NavItem><NavLinks to='announcement' smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
+            boderbg={whitebg}
+          >ANNOUNCEMENT</NavLinks></NavItem>
+          <NavItem><NavLinks to='contact'  
+          smooth={true}
+          duration={500}
+          spy={true}
+          exact="true"
+          offset={-80}
+          boderbg={greengb}
+          
+          >CONTACT</NavLinks></NavItem>
         </NavMenu>
     </NavBarContainer>
   </Nav>

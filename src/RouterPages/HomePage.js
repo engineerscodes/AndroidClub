@@ -7,10 +7,13 @@ import SideBar from "../components/SlideBar/sideBar";
 import Banner from "../components/Banner/Banner";
 import About from "../components/About/About";
 import { AboutInfo, Anncounment } from "../components/About/infoAbout";
+
 import { DisplayList, DisplayH1 } from "../components/Teams/TeamMainStyled";
+
 import ButtonRouterLink from "../components/ReactRouterBtn/ButtonRouterLink";
 import TeamCoursels from "../components/TeamCoursel/TeamCoursels";
 import Footers from "../components/Footer/Footers";
+import { InputData } from "../components/TeamCoursel/InputData";
 import Cards from "../components/Cards/CardComponent";
 
 class HomePage extends Component {
@@ -29,24 +32,23 @@ class HomePage extends Component {
         <About {...AboutInfo} />
         <About {...Anncounment} />
         <DisplayList id="team">
-          <DisplayH1> CORE TEAM 2020-2021</DisplayH1>
+          <DisplayH1> CORE TEAM 2020-2021 </DisplayH1>
         </DisplayList>
-        <TeamCoursels />
+
+        {/* <TeamCoursels slides={InputData} /> */}
+
+        {/* Cards */}
+        <div style={{ background: "#20dea0", color: "#20dea0" }}>text</div>
+        <div style={{ background: "#20dea0", color: "#20dea0" }}>
+          <Cards />
+        </div>
+
         <DisplayList>
           <ButtonRouterLink gotoPage={"/Team"} textdes={"VIEW"} />
         </DisplayList>
-        <div
-          style={{ padding: "20px", color: "#0de1b0", background: "#0de1b0" }}
-        >
-          card
-        </div>
-        <div style={{ background: "#0de1b0" }}>
-          <Cards />
-        </div>
         <Footers />
       </>
     );
   }
 }
-
 export default HomePage;

@@ -5,7 +5,7 @@ import './Banners.css'
 
 const VideoBanner = () => {
     return (
-        <BannerContainer id='about'>
+        <BannerContainer id='banner'>
            
          <Banner>
              <VideoBg  autoPlay loop muted src={Video} type='video/mp4'           />

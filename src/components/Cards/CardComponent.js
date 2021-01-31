@@ -68,7 +68,7 @@ function CardComponent() {
 // Card layout
 const MainCard = (props) => (
   <div>
-    <Card style={mainStyle} className="shadow-lg p-3 mb-5 bg-white rounded">
+    <Card style={mainStyle} className="shadow-lg p-3 mb-5 bg-red rounded">
       <Card.Header style={cardStyle}>{props.header}</Card.Header>
       <Card.Img src={props.image} />
 
@@ -85,9 +85,13 @@ const MainCard = (props) => (
 );
 
 // Styles
-const mainStyle = { width: "30vmax", textAlign: "center" };
-const cardStyle = { background: "#081C15", color: "#fff" };
-const bodyStyle = { background: "#333", color: "#00ff00" };
+const mainStyle = {
+  background: "black",
+  width: "30vmax",
+  textAlign: "center",
+};
+const cardStyle = { background: "#181C15", color: "#fff" };
+const bodyStyle = { background: "#081C15", color: "#18D55E" };
 const cardHover = {
   ransform: "scale(1.05)",
   boxShadow: "0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06)",

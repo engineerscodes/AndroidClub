@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, Button } from "react-bootstrap";
 import Carousel from "react-elastic-carousel";
-import style from "./StyleButtons.css";
+import style from "./bootstrap-4.0.0-dist/css/bootstrap.min.css";
 
 // * Add <MainCard... /> for adding a new card,
 // * the rendering and postion will be automatically added,
@@ -12,52 +12,46 @@ function CardComponent() {
     <Carousel breakPoints={breakPoints} style={style}>
       <MainCard
         header="Peace"
-        cardTitle="title"
         cardText="Android is a mobile operating system based on a modified version of the Linux kernel and other open source software."
-        cardTitle="Cards Title"
+        cardTitle="TITLE MAX"
         cardFooter="Footer"
         image="https://androidcommunity.com/wp-content/uploads/2019/06/Android-Studio-64-bit.jpg"
       />
 
       <MainCard
         header="Cards Header"
-        cardTitle="title"
         cardText="Android is a mobile operating system based on a modified version of the Linux kernel and other open source software."
-        cardTitle="Cards Title"
+        cardTitle="TITLE QWE"
         cardFooter="Footer"
         image="https://androidcommunity.com/wp-content/uploads/2019/06/Android-Studio-64-bit.jpg"
       />
 
       <MainCard
         header="Cards Header"
-        cardTitle="title"
         cardText="Android is a mobile operating system based on a modified version of the Linux kernel and other open source software."
-        cardTitle="Cards Title"
+        cardTitle="TITLE CHO"
         cardFooter="Footer"
         image="https://androidcommunity.com/wp-content/uploads/2019/06/Android-Studio-64-bit.jpg"
       />
 
       <MainCard
         header="Cards Header"
-        cardTitle="title"
         cardText="Android is a mobile operating system based on a modified version of the Linux kernel and other open source software."
-        cardTitle="Cards Title"
+        cardTitle="TITLE MAW"
         cardFooter="Footer"
         image="https://androidcommunity.com/wp-content/uploads/2019/06/Android-Studio-64-bit.jpg"
       />
       <MainCard
         header="Cards Header"
-        cardTitle="title"
         cardText="Android is a mobile operating system based on a modified version of the Linux kernel and other open source software."
-        cardTitle="Cards Title"
+        cardTitle="TITLE BAR"
         cardFooter="Footer"
         image="https://androidcommunity.com/wp-content/uploads/2019/06/Android-Studio-64-bit.jpg"
       />
       <MainCard
         header="Cards Header"
-        cardTitle="title"
         cardText="Android is a mobile operating system based on a modified version of the Linux kernel and other open source software."
-        cardTitle="Cards Title"
+        cardTitle="TITLE FOO"
         cardFooter="Footer"
         image="https://androidcommunity.com/wp-content/uploads/2019/06/Android-Studio-64-bit.jpg"
       />

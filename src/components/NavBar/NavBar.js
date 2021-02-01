@@ -40,7 +40,7 @@ const Navbar =(props)=>{ return (
           spy={true}
           exact="true"
           offset={-80}
-          >EVENT'S</NavLinks></NavItem>
+          >EVENTS</NavLinks></NavItem>
           <NavItem><NavLinks to='team'smooth={true}
             duration={500}
             spy={true}

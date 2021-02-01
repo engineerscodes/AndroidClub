@@ -1,4 +1,9 @@
-import { Link } from "react-router-dom"
+//import { Link } from "react-router-dom"
+import logoSmall from '../../Images/Image.svg';
+
+import PrimaryLOGo from '../../Images/1.JPG'
+
+
 
 export    const AboutInfo={
 
@@ -21,7 +26,8 @@ export    const AboutInfo={
   Linkdisc :'Join Discord',
   eventLinks :'https://discord.gg/X4wHTzk',
   
-  headingcolor:true
+  headingcolor:true,
+  logos:PrimaryLOGo
 }
 
 
@@ -45,6 +51,7 @@ export    const Anncounment={
   dark :true,
   primary :false,
   darkText :false,
-  headingcolor:false
+  headingcolor:false,
+  logos :logoSmall
 }
 

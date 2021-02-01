@@ -29,8 +29,14 @@ export const Card =styled.div`
        @media screen and (max-width :400px){
 
 grid-template-columns :200px;   
-
+grid-template-rows :190px 310px 100px;
 }
+@media screen and (max-width :350px){
+
+grid-template-columns :180px;   
+grid-template-rows :190px 310px 100px;
+}
+
 `;
 
 

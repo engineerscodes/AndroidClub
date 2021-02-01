@@ -1,11 +1,9 @@
 import React from 'react';
 import {InfoContainer ,InfoWrapper,InfoRow,Column1,Column2,TextWrapper , TopLine,Heading ,Subtitle, ImgWrap,Img,EventSwrapper,LinkWrapper, ExternalLink } from './AboutStyled';
 import './Youtubes.css';
-import logoSmall from '../../Images/Image.svg';
 
 
-
-const About = ({id,lightBg,imgStart,topline,lightText,headline,darkText, description, img,alt,eventSwapper,dates,venu,Linkdisc,eventLinks,headingcolor}) => {
+const About = ({id,lightBg,imgStart,topline,lightText,headline,darkText, description, img,alt,eventSwapper,dates,venu,Linkdisc,eventLinks,headingcolor,logos}) => {
   
  
   
@@ -47,7 +45,7 @@ const About = ({id,lightBg,imgStart,topline,lightText,headline,darkText, descrip
                 <iframe src={img} width="450px" height="350px" title="Videos"   frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> 
 
                   </div>
-                  <Img src = {logoSmall} alt={alt}/>
+                  <Img src = {logos} alt={alt}/>
                   </ImgWrap>
                   </Column2>
             

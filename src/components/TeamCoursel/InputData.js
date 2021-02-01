@@ -2,7 +2,7 @@
 export const InputData =[
   
 {
-    image : "https://instagram.fpnq10-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s750x750/123802503_856784408392176_2551871292817756807_n.jpg?_nc_ht=instagram.fpnq10-1.fna.fbcdn.net&_nc_cat=100&_nc_ohc=9AYD8M2i_rAAX9JHeA3&tp=1&oh=9a17616803ca0f99f07df8ca7f87af82&oe=603F99DA"
+    image : "https://github.com/engineerscodes/AndroidClub/blob/master/src/Images/4.JPG?raw=true"
 },
 
 {

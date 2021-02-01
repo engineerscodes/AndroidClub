@@ -54,7 +54,7 @@
 @media screen and (max-width :968px)
 {
     .image{
-        width: 75%;
+        width: 100%;
         margin: auto;
         align-self: center;
         display: block;
@@ -76,7 +76,7 @@
 @media screen and (max-width :530px)
 {
     .image{
-        width: 65%;
+        width: 100%;
         margin: auto;
         align-self: center;
         display: block;
@@ -98,7 +98,7 @@
 @media screen and (max-width :350px)
 {
     .image{
-        width: 50%;
+        width: 100%;
         margin: auto;
         align-self: center;
         display: block;

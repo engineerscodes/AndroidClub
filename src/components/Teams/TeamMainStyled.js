@@ -12,6 +12,7 @@ background :#010606;
   
 }
 
+
 @media screen and (max-width :480px)
 {
   
@@ -29,11 +30,33 @@ export const DisplayH1=styled.h1`
    text-align :center;
    padding :5px;
    margin : 0 auto;
+  
    @media screen and (max-width :480px)
 {
     font-size :2rem;
 }
 `;
+
+
+ export const DisplayListEvent=styled.div`
+  
+  display :flex;
+background :#20dea0;
+ 
+ `;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 export const Teamgrid=styled.div`

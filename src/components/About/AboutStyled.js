@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 export const InfoContainer =styled.div`
 
  color :#fff;
- background: ${({lightBg}) =>(lightBg ? '#0de1b0' :'#010606')};
+ background: ${({lightBg}) =>(lightBg ? '#20dea0' :'#010606')};
   
  @media screen and (max-width :768px){
 

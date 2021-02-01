@@ -12,7 +12,7 @@ const Navbar =(props)=>{ return (
 <>  
   <Nav>
     <NavBarContainer>
-        <NavLogo to='/'>
+        <NavLogo to='/AndroidClub'>
         
           ANDROID CLUB
            

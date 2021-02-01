@@ -7,12 +7,6 @@ import style from "./StyleButtons.css";
 import {Card,Cardimage,CardStats,Cardtext,ParaCard,CardWrapper,CStat,AchorTag,Lefts} from './CardStyle'
 
 
-// PULL REQUEST FROM JAYAN PRAVEEN 
-// * Add <MainCard... /> for adding a new card,
-// * the rendering and postion will be automatically added,
-// * Since its a single component no states are used.
-
-
 
 
 function CardComponent() {
@@ -212,26 +206,3 @@ const breakPoints = [
 ];
 
 export default CardComponent;
-/**
- * <div  >
-
-    <Card  >
-      <Header >{props.header}</Header>
-      <Img src={props.image} />
-
-      <Bodys >
-        <Title >{props.cardTitles}</Title>
-        <Text>{props.cardText}</Text>
-        <Buttons variant="success" href={props.links} target="_blank">
-
-          Success
-        </Buttons>  
-        <ExternalLink to={{ pathname:props.links} }target="_blank"  >Join </ExternalLink>
-        </Bodys>
-        <Footer >{props.cardFooter}</Footer>
-      </Card>
-  
-  
-  
-    </div>
- */

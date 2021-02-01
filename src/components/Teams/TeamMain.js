@@ -18,6 +18,18 @@ class TeamMain extends Component {
             <Teams />
             <Teams />
             <Teams />
+            <Teams />
+            <Teams />
+            <Teams />
+            <Teams />
+            <Teams />
+            <Teams />
+            <Teams />
+            <Teams />
+            <Teams />
+            <Teams />
+            <Teams />
+            <Teams />
           </Teamgrid>
         </DisplayList>
 

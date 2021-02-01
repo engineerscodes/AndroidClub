@@ -17,6 +17,20 @@ export const Card =styled.div`
      background-color:white;
      box-shadow : 5px 5px 15px black;
      text-align :center;
+
+     @media screen and (max-width :440px){
+
+        grid-template-columns :250px;   
+        grid-template-rows :190px 290px 100px;
+
+       }
+
+
+       @media screen and (max-width :400px){
+
+grid-template-columns :200px;   
+
+}
 `;
 
 
@@ -42,6 +56,8 @@ export const ParaCard=styled.p`
     font-size :1rem;
     font-weight :500;
     margin :10px;
+
+  
 `;
 
 export const CardStats=styled.div`
@@ -65,6 +81,7 @@ export const CStat=styled.div`
  padding :5px;
  color :white;
 
+
  
 `;
 
@@ -74,6 +91,20 @@ export const AchorTag=styled.a`
    color :white;
     font-weight :bolder;
     text-transform : uppercase;
+    @media screen and (max-width :440px){
+
+    font-size : 1.5rem   ;
+    font-weight :bold;
+    margin-top :2px;
+}
+
+
+@media screen and (max-width :400px){
+
+    font-size : 1rem  ;
+    font-weight :bold;
+    margin-top :2px;
+}
 
 `;
 
@@ -81,6 +112,24 @@ export const Lefts=styled.h3`
     margin :0px;
     font-size :22px;
     text-transform : uppercase;
+
+
+
+    @media screen and (max-width :440px){
+   margin-top :2px;
+font-size : 18px  ;
+
+}
+
+
+@media screen and (max-width :400px){
+    margin-top :2px;
+font-size : 14px  ;
+
+}
+
+
+
 `;
 
 

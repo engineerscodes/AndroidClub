@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 export    const AboutInfo={
 
-  id:'about',
+  id:'home',
   lightBg :false,
   lightText :true,
   topline :'Android Club Vitap',

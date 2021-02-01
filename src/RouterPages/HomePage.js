@@ -34,8 +34,8 @@ class HomePage extends Component {
         <SideBar isOpen={this.state.isOpen} toggle={this.toggle} />
         <Navbar toggle={this.toggle} />
         <Banner />
-        <About {...AboutInfo} />
-        <About {...Anncounment} />
+        <About {...AboutInfo}  />
+        <About {...Anncounment}  />
         <DisplayList id="team">
           <DisplayH1> CORE TEAM 2020-2021 </DisplayH1>
         </DisplayList>
@@ -52,6 +52,7 @@ class HomePage extends Component {
          <DisplayH1> EVENTS</DisplayH1>
          </DisplayListEvent>
          <DisplayListEvent>  <Cards /> </DisplayListEvent>
+         <DisplayListEvent><ButtonRouterLink gotoPage={"/Events"} textdes={"VIEW"} /></DisplayListEvent>
         <Footers /> </div>
       </>
     );

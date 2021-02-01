@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Banner from './components/Banner/Banner'
 import About from './components/About/About';
 import {AboutInfo,Anncounment} from './components/About/infoAbout' */
+import EventList from './components/EventsList/EventList'
 
 import TeamMain from "./components/Teams/TeamMain.js";
 import HomePage from "./RouterPages/HomePage";
@@ -24,7 +25,7 @@ class App extends Component
  <Switch>
         <Route path='/AndroidClub' component={HomePage} exact/>
         <Route path='/Team' component={TeamMain} />
-      
+        <Route path="/Events" component={EventList} />
        </Switch> 
  </div>
  </Router>

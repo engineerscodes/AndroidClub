@@ -23,16 +23,18 @@ const Navbar =(props)=>{ return (
         </MobileIcon>
         <NavMenu>
           <NavItem>
-            <NavLinks  to='about' smooth={true}
+            <NavLinks  to='home' 
+            smooth={true}
             duration={500}
             spy={true}
             exact="true"
-            offset={-80}
+            offset={80}
             boderbg={greengb}
             
             >HOME</NavLinks> 
             </NavItem>
-          <NavItem><NavLinks to='event'
+          <NavItem>
+            <NavLinks to='event'
           smooth={true}
           duration={500}
           spy={true}

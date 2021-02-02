@@ -10,11 +10,11 @@ const VideoBanner = () => {
          <Banner>
              <VideoBg  autoPlay loop muted src={Video} type='video/mp4'           />
          </Banner>
-          <div className="aboutBanner">
+        {/*  <div className="aboutBanner">
               <h1 className="aboutH1">ANDROID_</h1>
               <h1 className="aboutH1">CLUB</h1>
               <h3 className="aboutP">VITAP</h3>
-          </div>
+          </div>  */}
         </BannerContainer>
     )
 }

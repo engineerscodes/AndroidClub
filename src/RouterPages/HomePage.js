@@ -15,6 +15,7 @@ import TeamCoursels from "../components/TeamCoursel/TeamCoursels";
 import Footers from "../components/Footer/Footers";
 import { InputData } from "../components/TeamCoursel/InputData";
 import Cards from "../components/Cards/CardComponent";
+import InfoSectionArea from "../INFOSECTION/InfoSectionArea";
 
 
 
@@ -35,7 +36,7 @@ class HomePage extends Component {
         <Navbar toggle={this.toggle} />
         <Banner />
         <About {...AboutInfo}  />
-        <About {...Anncounment}  />
+       {/* <About {...Anncounment}  />
         <DisplayList id="team">
           <DisplayH1> CORE TEAM 2020-2021 </DisplayH1>
         </DisplayList>
@@ -46,14 +47,19 @@ class HomePage extends Component {
           <ButtonRouterLink gotoPage={"/Team"} textdes={"VIEW"} />
         </DisplayList>
 
-        {/* Cards */}
+        
          <div id="event">
          <DisplayListEvent>
          <DisplayH1> EVENTS</DisplayH1>
          </DisplayListEvent>
          <DisplayListEvent>  <Cards /> </DisplayListEvent>
-         <DisplayListEvent><ButtonRouterLink gotoPage={"/Events"} textdes={"VIEW"} /></DisplayListEvent>
-        <Footers /> </div>
+    <DisplayListEvent><ButtonRouterLink gotoPage={"/Events"} textdes={"VIEW"} /></DisplayListEvent> */}
+        
+        <InfoSectionArea/>
+
+
+        <Footers /> 
+        {/*</div>*/}
       </>
     );
   }

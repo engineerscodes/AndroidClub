@@ -56,10 +56,12 @@ class HomePage extends Component {
     <DisplayListEvent><ButtonRouterLink gotoPage={"/Events"} textdes={"VIEW"} /></DisplayListEvent> */}
         
         <InfoSectionArea/>
+         <div>
+           <Footers/>
+         </div>
 
-
-        <Footers /> 
-        {/*</div>*/}
+       
+        
       </>
     );
   }

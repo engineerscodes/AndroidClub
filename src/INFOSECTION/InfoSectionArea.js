@@ -6,21 +6,21 @@ const InfoSectionArea = () => {
     return (
         <>
              
-             <div class="Container" >
+             <div className="Container" >
         
-        <div class="rootInfo">
+        <div className="rootInfo">
             
-               <div class="ingo i1">
-                   <div  class="text1"> 20+</div>
-                   <div class="text2">Events</div>
+               <div className="ingo i1">
+                   <div  className="text1"> 20+</div>
+                   <div className="text2">Events</div>
                </div>
-               <div class="ingo">
-                   <div  class="text1"> 1500+ </div>
-                   <div class="text2">Participants</div>
+               <div className="ingo">
+                   <div  className="text1"> 1500+ </div>
+                   <div className="text2">Participants</div>
                </div>
-               <div class="ingo">
-                    <div  class="text1">100+ </div>
-                   <div class="text2">Hours</div>
+               <div className="ingo">
+                    <div  className="text1">100+ </div>
+                   <div className="text2">Hours</div>
                </div>
                 
 

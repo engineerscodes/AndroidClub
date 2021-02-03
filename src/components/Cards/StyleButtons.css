@@ -29,3 +29,33 @@
   background: #00ff00;
 }
 
+.brStyleCard{
+  
+   width: 75%;
+   align-content: center;
+   margin: auto;
+   border-bottom: 10px solid  rgba(196, 196, 196, 0.25);
+   justify-content: center;
+
+}
+
+.NaveenCard{
+  width: 100%;
+  height: 650px;
+}
+
+
+
+.EventTilesInfo{
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.125em;
+  
+  color: #D3D3D3;
+  text-align: center;
+}
+
+

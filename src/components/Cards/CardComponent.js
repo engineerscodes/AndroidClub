@@ -4,164 +4,128 @@ import Carousel from "react-elastic-carousel";
 import style from "./StyleButtons.css";
 
 //import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import {Card,Cardimage,CardStats,Cardtext,ParaCard,CardWrapper,CStat,AchorTag,Lefts} from './CardStyle'
+import {MainCards} from './CardStyle'
 
 
 
 
 function CardComponent() {
   return (
+        <>
+        <div className="NaveenCard" style={style}>
+       <div className="brStyleCard"  style={style}></div>
+       <h1 className="EventTilesInfo">EVENTS</h1>
+
+
     <Carousel breakPoints={breakPoints} style={style} >
-      <MainCard className="Card-div"
-        header="Peace"
-        cardTitle="title"
-        cardText="Android is a mobile operating system based on a modified version of the Linux kernel and other open source software."
-
+      
+     
+      <MainCard
+       
+        image="https://androidcommunity.com/wp-content/uploads/2019/06/Android-Studio-64-bit.jpg"
         
-        cardTitles="Cards Title"
-
-        cardFooter="Footer"
-        image="https://androidcommunity.com/wp-content/uploads/2019/06/Android-Studio-64-bit.jpg"
-        links="https://www.android.com"
-      />
-
-      <MainCard
-        header="Cards Header"
-        cardTitle="title"
-        cardText="Android is a mobile operating system based on a modified version of the Linux kernel and other open source software."
-
-        cardTitles="Cards Title"
-
-        cardFooter="Footer"
-        image="https://androidcommunity.com/wp-content/uploads/2019/06/Android-Studio-64-bit.jpg"
-        links="https://naveennaveen.me/"
-      />
-
-      <MainCard
-        header="Cards Header"
-        cardTitle="title"
-        cardText="Android is a mobile operating system based on a modified version of the Linux kernel and other open source software."
-
-        cardTitles="Cards Title"
-
-        cardFooter="Footer"
-        image="https://androidcommunity.com/wp-content/uploads/2019/06/Android-Studio-64-bit.jpg"
-        links="https://naveennaveen.me/"
-      />
-
-      <MainCard
-        header="Cards Header"
-        cardTitle="title"
-        cardText="Android is a mobile operating system based on a modified version of the Linux kernel and other open source software."
-
-        cardTitles="Cards Title"
-
-        cardFooter="Footer"
-        image="https://androidcommunity.com/wp-content/uploads/2019/06/Android-Studio-64-bit.jpg"
-        links="https://naveennaveen.me/"
       />
       <MainCard
-        header="Cards Header"
-        cardTitle="title"
-        cardText="Android is a mobile operating system based on a modified version of the Linux kernel and other open source software."
-
-        cardTitles="Cards Title"
-
-        cardFooter="Footer"
-        image="https://androidcommunity.com/wp-content/uploads/2019/06/Android-Studio-64-bit.jpg"
-        links="https://naveennaveen.me/"
-      />
+       
+       image="https://androidcommunity.com/wp-content/uploads/2019/06/Android-Studio-64-bit.jpg"
+       
+     />
+     <MainCard
+       
+       image="https://androidcommunity.com/wp-content/uploads/2019/06/Android-Studio-64-bit.jpg"
+       
+     />
+     <MainCard
+       
+       image="https://androidcommunity.com/wp-content/uploads/2019/06/Android-Studio-64-bit.jpg"
+       
+     />
+     <MainCard
+       
+       image="https://androidcommunity.com/wp-content/uploads/2019/06/Android-Studio-64-bit.jpg"
+       
+     />
+     <MainCard
+       
+       image="https://androidcommunity.com/wp-content/uploads/2019/06/Android-Studio-64-bit.jpg"
+       
+     />
+     <MainCard
+       
+       image="https://androidcommunity.com/wp-content/uploads/2019/06/Android-Studio-64-bit.jpg"
+       
+     />
+     <MainCard
+       
+       image="https://androidcommunity.com/wp-content/uploads/2019/06/Android-Studio-64-bit.jpg"
+       
+     />
+     <MainCard
+       
+       image="https://androidcommunity.com/wp-content/uploads/2019/06/Android-Studio-64-bit.jpg"
+       
+     />
+     <MainCard
+       
+       image="https://androidcommunity.com/wp-content/uploads/2019/06/Android-Studio-64-bit.jpg"
+       
+     />
+     <MainCard
+       
+       image="https://androidcommunity.com/wp-content/uploads/2019/06/Android-Studio-64-bit.jpg"
+       
+     />
+      
       <MainCard
-        header="Cards Header"
-        cardTitle="title"
-        cardText="Android is a mobile operating system based on a modified version of the Linux kernel and other open source software."
-
-        cardTitles="Cards Title"
-
-        cardFooter="Footer"
+        
         image="https://androidcommunity.com/wp-content/uploads/2019/06/Android-Studio-64-bit.jpg"
-        links="https://naveennaveen.me/"
-      />
-      <MainCard
-        header="Cards Header"
-        cardTitle="title"
-        cardText="Android is a mobile operating system based on a modified version of the Linux kernel and other open source software."
-
-        cardTitles="Cards Title"
-
-        cardFooter="Footer"
-        image="https://androidcommunity.com/wp-content/uploads/2019/06/Android-Studio-64-bit.jpg"
-        links="https://naveennaveen.me/"
-      />
-      <MainCard
-        header="Cards Header"
-        cardTitle="title"
-        cardText="Android is a mobile operating system based on a modified version of the Linux kernel and other open source software."
-
-        cardTitles="Cards Title"
-
-        cardFooter="Footer"
-        image="https://androidcommunity.com/wp-content/uploads/2019/06/Android-Studio-64-bit.jpg"
-        links="https://naveennaveen.me/"
-      />
-      <MainCard
-        header="Cards Header"
-        cardTitle="title"
-        cardText="Android is a mobile operating system based on a modified version of the Linux kernel and other open source software."
-
-        cardTitles="Cards Title"
-
-        cardFooter="Footer"
-        image="https://androidcommunity.com/wp-content/uploads/2019/06/Android-Studio-64-bit.jpg"
-        links="https://naveennaveen.me/"
+       
       />
         
         <MainCard
-        header="Cards Header"
-        cardTitle="title"
-        cardText="Android is a mobile operating system based on a modified version of the Linux kernel and other open source software."
-
-        cardTitles="Cards Title"
-
-        cardFooter="Footer"
+        
         image="https://androidcommunity.com/wp-content/uploads/2019/06/Android-Studio-64-bit.jpg"
-        links="https://naveennaveen.me/"
+        
       />
 
 
 
 
       <MainCard
-        header="Cards Header"
-        cardTitle="title"
-        cardText="Android is a mobile operating system based on a modified version of the Linux kernel and other open source software."
-
-        cardTitles="Cards Title"
-
-        cardFooter="Footer"
+       
         image="https://androidcommunity.com/wp-content/uploads/2019/06/Android-Studio-64-bit.jpg"
-        links="https://naveennaveen.me/"
+        
       /> 
 
-
-
-
-
-
-
-
-
-
-
     </Carousel>
+    </div>
+    </>
   );
 }
 
 //  Card layout
 const MainCard = (props) => (
-      <>
-      
-     <CardWrapper>
+        <>
+               <MainCards>
+              <img className="ImageMaincard" src={props.image} alt="Images"  width="400px" height="400px" />
+              </MainCards>
+        </>
+);
+
+// Styles
+
+
+const breakPoints = [
+  { width: 1, itemsToShow: 1 },
+  { width: 800, itemsToShow: 2 },
+  { width: 1200, itemsToShow: 3 },
+  { width: 2000, itemsToShow: 4 },
+];
+
+export default CardComponent;
+
+
+/*     <CardWrapper>
       <Card>
           <Cardimage backgrounds={props.image}></Cardimage>
           <Cardtext>
@@ -191,18 +155,4 @@ const MainCard = (props) => (
 
 
       </Card>
-      </CardWrapper>    
-      </>
-);
-
-// Styles
-
-
-const breakPoints = [
-  { width: 1, itemsToShow: 1 },
-  { width: 800, itemsToShow: 2 },
-  { width: 1200, itemsToShow: 3 },
-  { width: 2000, itemsToShow: 4 },
-];
-
-export default CardComponent;
+      </CardWrapper>   */

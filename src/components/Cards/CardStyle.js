@@ -1,4 +1,11 @@
 import styled from 'styled-components'
+  
+
+
+export const MainCards=styled.div`
+   margin :50px;
+
+`;
 
 
 export const CardWrapper=styled.div`

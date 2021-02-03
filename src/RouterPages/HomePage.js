@@ -16,6 +16,8 @@ import Footers from "../components/Footer/Footers";
 import { InputData } from "../components/TeamCoursel/InputData";
 import Cards from "../components/Cards/CardComponent";
 import InfoSectionArea from "../INFOSECTION/InfoSectionArea";
+import EventCardGrids from "../components/EventCardGrids/EventCardGrids";
+import CardComponent from "../components/Cards/CardComponent";
 
 
 
@@ -56,6 +58,9 @@ class HomePage extends Component {
     <DisplayListEvent><ButtonRouterLink gotoPage={"/Events"} textdes={"VIEW"} /></DisplayListEvent> */}
         
         <InfoSectionArea/>
+        <EventCardGrids/>
+        <CardComponent/>
+
          <div>
            <Footers/>
          </div>

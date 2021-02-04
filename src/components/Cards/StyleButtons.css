@@ -3,21 +3,25 @@
   border-radius: 50;
   background: #333;
   color: #00ff00;
+  display: none;
 }
 /* hide disabled buttons */
 .rec.rec-arrow:disabled {
   visibility: hidden;
   background: #333;
   color: #00ff00;
+   display: none;
 }
 .rec.rec-arrow::selection,
 ::after {
   background: #333;
   color: #00ff00;
+   display: none;
 }
 
 .rec.rec-arrow::shadow {
   visibility: visible;
+   display: none;
 }
 .rec.rec-dot {
   background: #ffffff;
@@ -31,10 +35,10 @@
 
 .brStyleCard{
   
-   width: 75%;
+   width: 85%;
    align-content: center;
    margin: auto;
-   border-bottom: 10px solid  rgba(196, 196, 196, 0.25);
+   border-bottom: 4px solid  rgba(196, 196, 196, 0.25);
    justify-content: center;
 
 }
@@ -56,6 +60,44 @@
   
   color: #D3D3D3;
   text-align: center;
+  font-weight: bolder;
+}
+
+.CarouselWidthController{
+  width: 75%;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
 }
 
 
+
+
+
+
+
+
+@media screen and (max-width :780px) {
+   .ImageMaincard{
+     width: 300px;
+     height: auto;
+   }
+}
+
+@media screen and (max-width :460px) {
+  .ImageMaincard {
+    width: 250px;
+    height: auto;
+  }
+
+     
+}
+
+ @media screen and (max-width :390px) {
+    
+    .ImageMaincard {
+      width: 200px;
+      height: auto;
+    }
+
+ }

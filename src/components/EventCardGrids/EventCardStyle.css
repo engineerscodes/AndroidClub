@@ -12,8 +12,9 @@
     font-size: 24px;
     line-height: 28px;
     letter-spacing: 0.125em;
-    
+    margin-bottom: 60px;
     color: #D3D3D3;
+    font-weight: bolder;
  }
 
  .GRIDS{
@@ -30,7 +31,9 @@
     width: 315px;
     height: 315px;
  }
-
+.HideMe{
+   display: none;
+}
 
 
  @media screen and (max-width :1450px)
@@ -41,7 +44,8 @@
       margin-top: 60px;
       grid-template-columns: repeat(3,1fr);
       
-    }  
+    } 
+    .HideMe{display: block;}
  }
  
  
@@ -54,6 +58,9 @@
       grid-template-columns: repeat(2,320px);
       justify-content: center;
     }  
+    .HideMe {
+       display: none;
+    }
  }
 
  @media screen and (max-width :760px)
@@ -65,6 +72,9 @@
       grid-template-columns: 300px;
        justify-content: center;
     }  
+    .HideMe {
+       display: none;
+    }
  }
 
  
@@ -79,5 +89,8 @@
     }  
     .ImageEvents{
        width: 230px;
+    }
+    .HideMe {
+       display: none;
     }
  }

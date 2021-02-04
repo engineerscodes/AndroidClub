@@ -4,7 +4,25 @@ import styled from 'styled-components'
 
 export const MainCards=styled.div`
    margin :50px;
+     @media screen and (max-width :760px)
+ {
+       margin-left :30px;
+       margin-right:30px;
 
+ }
+
+     @media screen and (max-width :500px)
+ {
+       margin-left :10px;
+       margin-right:10px;
+       
+ }
+     @media screen and (max-width :390px)
+ {
+       margin-left :0px;
+       margin-right:0px;
+       
+ }
 `;
 
 

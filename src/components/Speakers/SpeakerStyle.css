@@ -1,8 +1,3 @@
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 .SPEAKERCONSTAINER {
     width: 100%;
@@ -87,6 +82,7 @@ body {
     border-radius: 30px;
     position: absolute;
     bottom: 0;
+    border-color: white;
 }
 
 

@@ -8,7 +8,7 @@
 
   .TestMon button {
       border-radius: 50%;
-      margin-bottom: 30px;
+      margin-bottom: 100px;
   }
   
   .TestMon button.rec-dot_active {
@@ -25,7 +25,8 @@
 }
 
 .TsConatiner{
-   margin-top: 30px;
+   margin-top: 100px;
+   
     width: 633px;
     height: 232px;
     background: #F8F8F8;

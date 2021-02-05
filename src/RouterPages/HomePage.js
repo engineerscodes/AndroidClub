@@ -6,7 +6,7 @@ import Navbar from "../components/NavBar/NavBar";
 import SideBar from "../components/SlideBar/sideBar";
 import Banner from "../components/Banner/Banner";
 import About from "../components/About/About";
-import { AboutInfo, Anncounment } from "../components/About/infoAbout";
+import { AboutInfo} from "../components/About/infoAbout";
 
 //import { DisplayList, DisplayH1,DisplayListEvent } from "../components/Teams/TeamMainStyled";
 
@@ -19,6 +19,7 @@ import InfoSectionArea from "../INFOSECTION/InfoSectionArea";
 import EventCardGrids from "../components/EventCardGrids/EventCardGrids";
 import CardComponent from "../components/Cards/CardComponent";
 import TestTimonialCardComponent from "../components/TestTimonials/TestTimonialCard";
+import Speakers from "../components/Speakers/Speakers";
 
 
 
@@ -59,6 +60,7 @@ class HomePage extends Component {
     <DisplayListEvent><ButtonRouterLink gotoPage={"/Events"} textdes={"VIEW"} /></DisplayListEvent> */}
         
         <InfoSectionArea/>
+        <Speakers/>
         <EventCardGrids/>
         <CardComponent/>
           <TestTimonialCardComponent/>

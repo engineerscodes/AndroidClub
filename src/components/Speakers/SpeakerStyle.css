@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.SPEAKERCONSTAINER {
+    width: 100%;
+    height: 700px;
+    background-color: #F8F8F8;
+    align-content: center;
+    justify-items: center;
+
+}
+
+.SpeakerFlex {
+
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    margin: auto;
+
+}
+
+.spk1 {
+    width: 223px;
+    height: 340px;
+    margin: 10px 0px 10px 150px;
+
+
+}
+
+.spk1img {
+    width: inherit;
+    height: inherit;
+}
+
+
+.spk2 {
+
+    width: auto;
+    position: relative;
+    margin: 10px 10px 10px 35px;
+    height: 340px;
+}
+
+
+.spk2 .spk2h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.325em;
+
+    color: #000000;
+}
+
+.spk2 .spk2h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 15px;
+
+    color: #000000;
+
+}
+
+.spk2 .spk2h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 15px;
+
+    color: #000000;
+
+}
+
+.SpeakerButton {
+
+    width: 219px;
+    height: 43px;
+    color: white;
+    background: #20DEA0;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+
+@media screen and (max-width :750px) {
+
+
+    .spk1 {
+        margin-left: 100px;
+    }
+
+}
+
+@media screen and (max-width :640px) {
+    .SpeakerFlex {
+        flex-direction: column;
+        align-items: unset;
+    }
+
+    .SPEAKERCONSTAINER {
+
+        height: 1000px;
+
+    }
+
+    .spk1 {
+        margin-left: 35px !important;
+        margin-top: 180px;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width :270px) {
+    .spk1 {
+        margin-left: 10px;
+    }
+
+    .spk2 {
+        margin-left: 10px;
+    }
+
+}

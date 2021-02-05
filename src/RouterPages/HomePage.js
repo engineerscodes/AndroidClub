@@ -18,6 +18,7 @@ import Cards from "../components/Cards/CardComponent";
 import InfoSectionArea from "../INFOSECTION/InfoSectionArea";
 import EventCardGrids from "../components/EventCardGrids/EventCardGrids";
 import CardComponent from "../components/Cards/CardComponent";
+import TestTimonialCardComponent from "../components/TestTimonials/TestTimonialCard";
 
 
 
@@ -60,7 +61,7 @@ class HomePage extends Component {
         <InfoSectionArea/>
         <EventCardGrids/>
         <CardComponent/>
-
+          <TestTimonialCardComponent/>
          <div>
            <Footers/>
          </div>

@@ -66,7 +66,7 @@ function CardComponent() {
 const MainCard = (props) => (
         <>
                <MainCards>
-              <img className="ImageMaincard" src={props.image} alt="Images"  width="400px" height="400px" />
+                     <img className="ImageMaincard" src={props.image} alt="Images"  width="400px" height="400px" />
               </MainCards>
         </>
 );
@@ -77,8 +77,8 @@ const MainCard = (props) => (
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
   { width: 800, itemsToShow: 2 },
-  { width: 1200, itemsToShow: 3 },
-  { width: 2000, itemsToShow: 4 },
+  { width: 1500, itemsToShow: 3 },
+  { width: 2000, itemsToShow: 3 },
 ];
 
 export default CardComponent;

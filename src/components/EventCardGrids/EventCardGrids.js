@@ -5,12 +5,12 @@ const EventCardGrids = () => {
     return (
  <>
 
-
-    <div className="ContainerEVENTGRID">
+    
+    <div className="ContainerEVENTGRID" id="event">
            
            <div className="EventH1">EVENTS</div>
           <div className="GRIDS">
- 
+           
                 
            <img  className="ImageEvents" alt="Event card"   src="https://instagram.fpnq10-1.fna.fbcdn.net/v/t51.2885-15/e35/125878282_688477655141254_6767785746040863937_n.jpg?_nc_ht=instagram.fpnq10-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=Uc-kyKnY4qUAX_GxrV6&tp=1&oh=14abb58cfcc5a36e77b183d50aa65ddf&oe=60456B43"/>     
            <img   className="ImageEvents" alt="Event card"  src="https://instagram.fpnq10-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s750x750/73427517_2859112627457003_4293584215643306838_n.jpg?_nc_ht=instagram.fpnq10-1.fna.fbcdn.net&_nc_cat=111&_nc_ohc=0sm5iAz41iwAX_c6t6R&tp=1&oh=e27984f4b34ad4350ac44ddefbc5f7f6&oe=6045363E"/>     

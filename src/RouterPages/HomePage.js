@@ -8,13 +8,13 @@ import Banner from "../components/Banner/Banner";
 import About from "../components/About/About";
 import { AboutInfo, Anncounment } from "../components/About/infoAbout";
 
-import { DisplayList, DisplayH1,DisplayListEvent } from "../components/Teams/TeamMainStyled";
+//import { DisplayList, DisplayH1,DisplayListEvent } from "../components/Teams/TeamMainStyled";
 
-import ButtonRouterLink from "../components/ReactRouterBtn/ButtonRouterLink";
-import TeamCoursels from "../components/TeamCoursel/TeamCoursels";
+//import ButtonRouterLink from "../components/ReactRouterBtn/ButtonRouterLink";
+//import TeamCoursels from "../components/TeamCoursel/TeamCoursels";
 import Footers from "../components/Footer/Footers";
-import { InputData } from "../components/TeamCoursel/InputData";
-import Cards from "../components/Cards/CardComponent";
+//import { InputData } from "../components/TeamCoursel/InputData";
+//import Cards from "../components/Cards/CardComponent";
 import InfoSectionArea from "../INFOSECTION/InfoSectionArea";
 import EventCardGrids from "../components/EventCardGrids/EventCardGrids";
 import CardComponent from "../components/Cards/CardComponent";

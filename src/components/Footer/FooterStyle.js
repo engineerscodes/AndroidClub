@@ -52,7 +52,14 @@ export const FooterItems =styled.div`
 
 
 
+export const FootertextHide=styled(LinkR)`
+  color :#fff;
+  text-decoration :none;
+  margin-bottom :0.5rem;
+  font-size :16px;
+   visibility :hidden;
 
+`;
 
 
 export const FooterTitle=styled.h1`

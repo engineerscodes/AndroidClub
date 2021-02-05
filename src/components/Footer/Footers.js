@@ -6,8 +6,8 @@ import {
      MediaWraper,SocialMediaWrap,
      Logo,SICONS,
      SoicalLinks ,
-     CopyRights
-    
+     CopyRights,
+    FootertextHide
     
     } 
     from './FooterStyle'
@@ -22,7 +22,7 @@ const Footers = () => {
                <FooterItemsWrapper>
                <FooterItems >
                  <FooterTitle >About Us </FooterTitle>
-                 <Footertext to={{ pathname:"https://vitap.ac.in/"}} target="_blank" > VIT-AP</Footertext>
+                 <Footertext to={{ pathname:"https://vitap.ac.in/android-club-2/"}} target="_blank" > VIT-AP</Footertext>
                  <Footertext to={{ pathname:"https://discord.gg/X4wHTzk"}} target="_blank"> Discord Server</Footertext>
                  <Footertext to={{ pathname:"https://www.instagram.com/androidclubvitap/?hl=en"}} target="_blank"> Instagram</Footertext>
                </FooterItems>
@@ -30,7 +30,7 @@ const Footers = () => {
                <FooterItems >
                  <FooterTitle >Contact Us </FooterTitle>
                  <Footertext to={{pathname :"https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=mknaveen837@gmail.com"}} target="_blank"> Gmail</Footertext>
-                 <Footertext to={{ pathname:"https://discord.gg/X4wHTzk"}} target="_blank"> Join Discord </Footertext>
+                 <Footertext to={{ pathname:"https://www.linkedin.com/company/android-club-vit-ap"}} target="_blank"> LinKedIn </Footertext>
                  <Footertext to={{ pathname:"https://github.com/Android-Club-VITAP"}} target="_blank"> GITHUB </Footertext>
                </FooterItems>
 
@@ -42,8 +42,8 @@ const Footers = () => {
                  <Footertext to={{pathname :"https://github.com/Android-Club-VITAP/VTOP-Extended"}} target="_blank"> VTOP-Extended</Footertext>
                 {/* <Footertext to=""> Vit-AP</Footertext>
                  <Footertext to=""> Vit-AP</Footertext> */}
-                 <Footertext></Footertext>
-                  <Footertext></Footertext>
+                  <FootertextHide>Vit </FootertextHide>
+                  <FootertextHide> Vit </FootertextHide>
                </FooterItems>
 
                <FooterItems >

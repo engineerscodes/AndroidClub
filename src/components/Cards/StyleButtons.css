@@ -30,7 +30,8 @@
 }
 .rec.rec-dot_active {
   border: #333;
-  background: #00ff00;
+  background: #20DEA0;
+  
 }
 
 .brStyleCard{
@@ -45,7 +46,7 @@
 
 .NaveenCard{
   width: 100%;
-  height: 650px;
+  height: auto;
 }
 
 

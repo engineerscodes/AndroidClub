@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/AndroidClub/static/css/main.3db1604c.chunk.css",
+    "main.css": "/AndroidClub/static/css/main.0401d411.chunk.css",
     "main.js": "/AndroidClub/static/js/main.db8bb9f8.chunk.js",
     "main.js.map": "/AndroidClub/static/js/main.db8bb9f8.chunk.js.map",
     "runtime-main.js": "/AndroidClub/static/js/runtime-main.c20debe8.js",
@@ -8,7 +8,7 @@
     "static/js/2.1d8fae39.chunk.js": "/AndroidClub/static/js/2.1d8fae39.chunk.js",
     "static/js/2.1d8fae39.chunk.js.map": "/AndroidClub/static/js/2.1d8fae39.chunk.js.map",
     "index.html": "/AndroidClub/index.html",
-    "static/css/main.3db1604c.chunk.css.map": "/AndroidClub/static/css/main.3db1604c.chunk.css.map",
+    "static/css/main.0401d411.chunk.css.map": "/AndroidClub/static/css/main.0401d411.chunk.css.map",
     "static/js/2.1d8fae39.chunk.js.LICENSE.txt": "/AndroidClub/static/js/2.1d8fae39.chunk.js.LICENSE.txt",
     "static/media/1.8a19c867.JPG": "/AndroidClub/static/media/1.8a19c867.JPG",
     "static/media/Image.2c0445ca.svg": "/AndroidClub/static/media/Image.2c0445ca.svg",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.c20debe8.js",
     "static/js/2.1d8fae39.chunk.js",
-    "static/css/main.3db1604c.chunk.css",
+    "static/css/main.0401d411.chunk.css",
     "static/js/main.db8bb9f8.chunk.js"
   ]
 }

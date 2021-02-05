@@ -24,13 +24,14 @@
    display: none;
 }
 .rec.rec-dot {
-  background: #ffffff;
+  background: #C4C4C4;
   border: 2px #333;
   border-radius: 180;
 }
 .rec.rec-dot_active {
   border: #333;
-  background: #20DEA0;
+  background:  #C4C4C4;
+;
   
 }
 

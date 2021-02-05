@@ -1,19 +1,19 @@
   .TestMon button.rec-dot{
 
-    background: #20DEA0;
+    background: #C4C4C4;
     border: 2px #333;
     border-radius: 50;
     box-shadow: 0 0 1px 3px #F8F8F8;
   }
 
   .TestMon button {
-      border-radius: 0;
-
+      border-radius: 50%;
+      margin-bottom: 30px;
   }
   
   .TestMon button.rec-dot_active {
       border: rgb(255, 252, 252);
-      background: #0c0c0c;
+      background: #C4C4C4;
   }
 
 
@@ -39,6 +39,7 @@
     
     align-items: center; 
      flex-wrap: wrap;
+     margin: 5px;
 }
 .TS2 {
     
@@ -48,6 +49,6 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 21px;
-
+   margin: 5px;
   color: #000000;
 }

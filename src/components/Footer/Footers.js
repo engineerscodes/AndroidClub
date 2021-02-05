@@ -42,6 +42,8 @@ const Footers = () => {
                  <Footertext to={{pathname :"https://github.com/Android-Club-VITAP/VTOP-Extended"}} target="_blank"> VTOP-Extended</Footertext>
                 {/* <Footertext to=""> Vit-AP</Footertext>
                  <Footertext to=""> Vit-AP</Footertext> */}
+                 <Footertext></Footertext>
+                  <Footertext></Footertext>
                </FooterItems>
 
                <FooterItems >

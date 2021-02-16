@@ -1,7 +1,7 @@
 //import react from 'react'
 //import { Link } from 'react-router-dom'
 //import * as RB from 'react-bootstrap'
-import {Nav,NavBarContainer,NavLogo,MobileIcon,NavMenu,NavItem,NavLinks } from './NavBarStyle'
+import {Nav,NavBarContainer,NavLogo,MobileIcon,NavMenu,NavItem,NavLinks ,NavLinksRouter} from './NavBarStyle'
 
 import {FaBars} from 'react-icons/fa'
 
@@ -41,14 +41,15 @@ const Navbar =(props)=>{ return (
           exact="true"
           offset={-80}
           >EVENTS</NavLinks></NavItem>
-          <NavItem><NavLinks to='team'smooth={true}
+          <NavItem><NavLinksRouter to='/Team'smooth={true}
             duration={500}
             spy={true}
             exact="true"
             offset={-80}
             boderbg={greengb}
           
-          >TEAM</NavLinks></NavItem>
+          >TEAM</NavLinksRouter></NavItem> 
+          
           <NavItem><NavLinks to='announcement' smooth={true}
             duration={500}
             spy={true}

@@ -41,9 +41,8 @@ const Navbar =(props)=>{ return (
           exact="true"
           offset={-80}
           >EVENTS</NavLinks></NavItem>
-          <NavItem><NavLinksRouter to='/Team'smooth={true}
+          <NavItem><NavLinksRouter to='/Team'
             duration={500}
-            spy={true}
             exact="true"
             offset={-80}
             boderbg={greengb}

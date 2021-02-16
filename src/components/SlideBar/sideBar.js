@@ -1,5 +1,5 @@
 import React from 'react'
-import {SideBarContainer ,CloseIcon ,Icon,SideBarWrapper,SideBarMenu,SibeBarLink } from './sideBarStyle'
+import {SideBarContainer ,CloseIcon ,Icon,SideBarWrapper,SideBarMenu,SibeBarLink,SibeBarLinkRouter } from './sideBarStyle'
 
 
 const SideBar = (props) => {
@@ -17,9 +17,9 @@ const SideBar = (props) => {
                           <SibeBarLink to='event' onClick={props.toggle}>
                               EVENT'S
                           </SibeBarLink>
-                          <SibeBarLink to='team' onClick={props.toggle}>
+                          <SibeBarLinkRouter to='/Team' onClick={props.toggle}>
                               TEAM
-                          </SibeBarLink>
+                          </SibeBarLinkRouter>
                           <SibeBarLink to='announcement' onClick={props.toggle}>
                              ANNOUNCEMENT
                           </SibeBarLink>

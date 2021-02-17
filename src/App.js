@@ -16,7 +16,7 @@ import HomePage from "./RouterPages/HomePage";
 
 import ScrollToTop from "./components/ScrollToTop";
 import TeamPage from "./RouterPages/TeamPage";
-import EventCardGrids from "./components/EventCardGrids/EventCardGrids";
+/*import EventCardGrids from "./components/EventCardGrids/EventCardGrids";*/
 
 
 class App extends Component 

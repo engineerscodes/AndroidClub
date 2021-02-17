@@ -95,3 +95,23 @@ cousor :pointer;
     transition :0.2s ease-in-out;
 }
 `;
+
+export const SibeBarLinkA = styled.a`
+  display: flex;
+  align-items: center;
+  
+  color :white;
+
+  justify-content: center;
+  font-size: 1.5rem;
+  text-decoration: none;
+  list-style: none;
+  transition: 0.2s ease-in-out;
+  cousor: pointer;
+  
+
+  &:hover {
+    color: #01bf71;
+    transition: 0.2s ease-in-out;
+  }
+`;

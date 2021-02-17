@@ -16,6 +16,7 @@ import HomePage from "./RouterPages/HomePage";
 
 import ScrollToTop from "./components/ScrollToTop";
 import TeamPage from "./RouterPages/TeamPage";
+import EventCardGrids from "./components/EventCardGrids/EventCardGrids";
 
 
 class App extends Component 
@@ -24,15 +25,15 @@ class App extends Component
   render(){
   return (
     <Router>
-    <ScrollToTop/>
- <div className="App">
- <Switch>
-        <Route path='/AndroidClub' component={HomePage} exact/>
-        <Route path='/Team' component={TeamPage} />
-        <Route path="/Events" component={EventList} />
-       </Switch> 
- </div>
- </Router>
+      <ScrollToTop />
+      <div className="App">
+        <Switch>
+          <Route path="/AndroidClub" component={HomePage} exact />
+          <Route path="/Team" component={TeamPage} />
+          <Route path="/Events" component={EventList} />
+        </Switch>
+      </div>
+    </Router>
   );
   }
 }

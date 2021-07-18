@@ -10,27 +10,24 @@ import {
   FollowBtn,
 } from "./TeamsStyle";
 
-const Teams = () => {
+const Teams = (props) => {
+  const links = props.flink;
+  function flinkp(link) {
+    window.location.href = link;
+  }
   return (
     <>
       <Team>
         <BackgroundImg></BackgroundImg>
 
-        <ProfileImage
-          alt="Profile Picture"
-          src="https://scontent.fpnq10-1.fna.fbcdn.net/v/t1.0-9/26815533_497885003941084_4269498753401105411_n.jpg?_nc_cat=105&ccb=2&_nc_sid=09cbfe&_nc_ohc=BM2ypWlbWtYAX8TsVZX&_nc_ht=scontent.fpnq10-1.fna&oh=ba3e97facb8113295fa6091a8e930e34&oe=60378405"
-        ></ProfileImage>
+        <ProfileImage alt="Profile Picture" src={props.src}></ProfileImage>
 
-        <PersonName> Naveen </PersonName>
+        <PersonName>{props.name}</PersonName>
         <Position> Team Lead</Position>
 
-        <Qutoes>
-          Machine learning, Computer Vision enthusiast, Learning new Skills
-          ,Developing Visually Cool Dapp's , Trying to contribute more to future
-          AI world, And Waiting to Unleash my Tech Skills to the Future.
-        </Qutoes>
+        <Qutoes>{props.pbio}</Qutoes>
 
-        <FollowBtn>Follow</FollowBtn>
+        <FollowBtn onClick={() => flinkp(links)}>Follow</FollowBtn>
       </Team>
     </>
   );

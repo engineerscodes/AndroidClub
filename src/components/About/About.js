@@ -42,7 +42,7 @@ const About = ({id,lightBg,imgStart,topline,lightText,headline,darkText, descrip
                   <ImgWrap>
                   <div className="Youtube">
                  {/*<ReactPlayer  url={img}  controls    loop={true} width = "450px"  height = "350px" />*/}
-                <iframe src={img} width="450px" height="350px" title="Videos"   frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> 
+                <iframe src={img} width="450px" height="350px" title="Videos" frameBorder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> 
 
                   </div>
                   <Img src = {logos} alt={alt}/>

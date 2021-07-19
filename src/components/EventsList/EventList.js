@@ -22,15 +22,19 @@ const EventList = () => {
     return (
       <>
         <DisplayListEvent>
-          {" "}
-          <DisplayH1> EVENT VIEW </DisplayH1>
+          <div style={{ height: "50px" }}></div>
         </DisplayListEvent>
+        <DisplayListEvent>
+          <DisplayH1 style={{ paddingBottom: "50px" }}> EVENT VIEW </DisplayH1>
+        </DisplayListEvent>
+
         <DisplayListEvent>
           <Teamgrids>
             {Epage.data.map((data, index) => (
               ///<TsMainCard image={data.TestimonialImgUrl} key={index} testimony={data.testimony} author={data.ByName}/>
 
-              <EventCrads  key={index}
+              <EventCrads
+                key={index}
                 cardText={data.about}
                 cardTitles={data.EventName.toUpperCase()}
                 edate={data.EventDate}

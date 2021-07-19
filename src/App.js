@@ -1,14 +1,9 @@
 import React, { Component } from "react";
 import "./App.css";
-//import Navbar from './components/NavBar/NavBar';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-/*import SideBar from './components/SlideBar/sideBar';
-import Banner from './components/Banner/Banner'
-import About from './components/About/About';
 
-import TeamMain from "./components/Teams/TeamMain.js";
-import {AboutInfo,Anncounment} from './components/About/infoAbout' */
-import EventList from './components/EventsList/EventList'
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+import Event from './RouterPages/EventsPage'
 
 import HomePage from "./RouterPages/HomePage";
 
@@ -16,7 +11,8 @@ import HomePage from "./RouterPages/HomePage";
 
 import ScrollToTop from "./components/ScrollToTop";
 import TeamPage from "./RouterPages/TeamPage";
-/*import EventCardGrids from "./components/EventCardGrids/EventCardGrids";*/
+import { Events } from "react-scroll";
+
 
 
 class App extends Component 
@@ -30,7 +26,7 @@ class App extends Component
         <Switch>
           <Route path="/AndroidClub" component={HomePage} exact />
           <Route path="/Team" component={TeamPage} />
-          <Route path="/Events" component={EventList} />
+          <Route path="/Events" component={Event} />
         </Switch>
       </div>
     </Router>

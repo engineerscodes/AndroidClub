@@ -87,6 +87,8 @@ export const ParaCard=styled.p`
     font-size :1rem;
     font-weight :500;
     margin :10px;
+    padding-bottom:10px;
+    overflow: hidden;
 
   
 `;

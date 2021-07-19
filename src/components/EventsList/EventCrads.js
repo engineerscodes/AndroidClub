@@ -23,9 +23,10 @@ const EventCrads = (props) => {
     return (
       <CardWrapper>
         <Card>
+
           <Cardimage backgrounds={props.image}></Cardimage>
           <Cardtext>
-            <h1>{props.cardTitles}</h1>
+            <h1 style={{height:"38px"},{fontSize:"1.2vw"}}>{props.cardTitles}</h1>
             <h3>DATE : {props.edate.split("-").reverse().join("-")}</h3>
             <h3>VENUE : {props.evenue}</h3>
             <ParaCard>{props.cardText}</ParaCard>
@@ -47,6 +48,8 @@ const EventCrads = (props) => {
             </CStat>
           </CardStats>
         </Card>
+        
+     
       </CardWrapper>
     );
 }

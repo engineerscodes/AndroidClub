@@ -17,10 +17,7 @@ function CardComponent() {
     });
   }, []);
   if (!Challenges) return null;
-   
 
-   
-  
   return (
     <>
       <div className="NaveenCard" style={style}>
@@ -33,7 +30,7 @@ function CardComponent() {
               .slice(0)
               .reverse()
               .map((data, index) => (
-                <MainCard image={data.BannerImgUrl} />
+                <MainCard image={data.BannerImgUrl} key={index} />
               ))}
           </Carousel>
         </div>

@@ -36,7 +36,7 @@ const NavbarRouter = (props) => {
             </NavItem>
             <NavItem>
               <NavLinksA
-                href="/AndroidClub#event"
+                href="/AndroidClub"
                 exact="true"
                 offset={-80}
                 boderbg={greengb}
@@ -58,7 +58,7 @@ const NavbarRouter = (props) => {
 
             <NavItem>
               <NavLinksA
-                href="/AndroidClub#announcement"
+                href="/AndroidClub"
                 exact="true"
                 offset={-80}
                 boderbg={whitebg}
@@ -68,7 +68,7 @@ const NavbarRouter = (props) => {
             </NavItem>
             <NavItem>
               <NavLinksA
-                href="/AndroidClub#contact"
+                href="/AndroidClub"
                 exact="true"
                 offset={-80}
                 boderbg={greengb}

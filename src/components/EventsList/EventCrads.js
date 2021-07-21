@@ -2,7 +2,7 @@ import React from 'react'
 import {Card,Cardimage,CardStats,Cardtext,ParaCard,CardWrapper,CStat,AchorTag,Lefts} from '../Cards/CardStyle'
 const EventCrads = (props) => {
     let leftDate;
-    let curdate=new Date();
+    //let curdate=new Date();
     function leftdate(){
          let edate = props.edate;
          console.log(new Date(edate));

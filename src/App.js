@@ -3,34 +3,30 @@ import "./App.css";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import Event from './RouterPages/EventsPage'
+import Event from "./RouterPages/EventsPage";
 
 import HomePage from "./RouterPages/HomePage";
 
-
-
 import ScrollToTop from "./components/ScrollToTop";
 import TeamPage from "./RouterPages/TeamPage";
-import { Events } from "react-scroll";
+//import { Events } from "react-scroll";
+import Announcement from "./RouterPages/Announcement";
 
-
-
-class App extends Component 
-{  
-  
-  render(){
-  return (
-    <Router>
-      <ScrollToTop />
-      <div className="App">
-        <Switch>
-          <Route path="/AndroidClub" component={HomePage} exact />
-          <Route path="/Team" component={TeamPage} />
-          <Route path="/Events" component={Event} />
-        </Switch>
-      </div>
-    </Router>
-  );
+class App extends Component {
+  render() {
+    return (
+      <Router>
+        <ScrollToTop />
+        <div className="App">
+          <Switch>
+            <Route path="/AndroidClub" component={HomePage} exact />
+            <Route path="/Team" component={TeamPage} />
+            <Route path="/Events" component={Event} />
+            <Route path="/ANNOUNCEMENT" component={Announcement} />
+          </Switch>
+        </div>
+      </Router>
+    );
   }
 }
 

@@ -33,15 +33,21 @@
 }
 
 #Acc-card p{
-    color: white;
-     font-size: 1em;
-
+     font-size: 18;
+     text-transform: uppercase;
+     color: #6a7c9b;
+      font-weight: 600;
+      font-family: cursive;
 }
 
 #Acc-card h1 {
-    color: white;
-    font-size: 1em;
-
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 36px;
+    line-height: 1.1;
+    font-weight: 600;
+    color: #6a7c9b;
+    font-family: cursive;
 }
 
 
@@ -70,13 +76,13 @@
     align-items: center;
     justify-content: center;
     position: absolute;
-    width: 32px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
     overflow: hidden;
     top: 0;
     right: 0;
     background-color:#20dea0;
-    border-radius: 0 4px 0 32px;
+    border-radius: 0 4px 0 40px;
 }
 
 #Acc-go-arrow {
@@ -84,4 +90,11 @@
     margin-right: -4px;
     color: white;
     font-family: courier, sans;
+  
+    
+}
+
+#Acc-card:hover p,#Acc-card:hover h1{
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease-out;
 }

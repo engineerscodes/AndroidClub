@@ -4,7 +4,7 @@ import Navbar from "../components/NavBar/NavBar";
 
 import SideBar from "../components/SlideBar/sideBar";
 import Footers from "../components/Footer/Footers";
-import Events from '../components/EventsList/EventList';
+import Events from "../components/EventsList/EventList";
 
 class EventsPage extends Component {
   state = { isOpen: false };
@@ -16,11 +16,10 @@ class EventsPage extends Component {
   render() {
     return (
       <>
-        <SideBar isOpen={this.state.isOpen} toggle={this.toggle} />
-        <Navbar toggle={this.toggle} />
-         <Events/>
+        <SideBar isOpen={this.state.isOpen} toggle={this.toggle} show={false} />
+        <Navbar toggle={this.toggle} show={false} />
+        <Events />
         <div>
-
           <Footers />
         </div>
       </>

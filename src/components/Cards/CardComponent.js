@@ -1,9 +1,6 @@
 import React from "react";
-
 import Carousel from "react-elastic-carousel";
 import style from "./StyleButtons.css";
-
-//import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import { MainCards } from "./CardStyle";
 import axios from "axios";
 
@@ -39,7 +36,6 @@ function CardComponent() {
   );
 }
 
-//  Card layout
 const MainCard = (props) => (
   <>
     <MainCards>
@@ -54,8 +50,6 @@ const MainCard = (props) => (
   </>
 );
 
-// Styles
-
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
   { width: 800, itemsToShow: 2 },
@@ -64,35 +58,3 @@ const breakPoints = [
 ];
 
 export default CardComponent;
-
-/*     <CardWrapper>
-      <Card>
-          <Cardimage backgrounds={props.image}></Cardimage>
-          <Cardtext>
-
-             <h1>{props.cardTitles}</h1>
-             <h3>Date :xxxxxxx</h3>
-             <h3>venue :xxxxxxx</h3>
-             <ParaCard>{props.cardText}</ParaCard>
-
-          </Cardtext>
-        
-          <CardStats>
-
-              <CStat>
-                  
-                  <AchorTag href="" >Join</AchorTag>
-                  <Lefts>Days Left </Lefts>
-              </CStat>
-
-              <CStat>
-                  
-                  <AchorTag href="" >REG</AchorTag>
-                  <Lefts>xxxx</Lefts>
-              </CStat>
-
-          </CardStats>
-
-
-      </Card>
-      </CardWrapper>   */

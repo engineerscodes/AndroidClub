@@ -1,6 +1,3 @@
-//import react from 'react'
-//import { Link } from 'react-router-dom'
-//import * as RB from 'react-bootstrap'
 import {
   Nav,
   NavBarContainer,
@@ -15,8 +12,6 @@ import {
 import { FaBars } from "react-icons/fa";
 
 let greengb = "true";
-let whitebg = "false";
-
 const Navbar = (props) => {
   return (
     <>
@@ -37,6 +32,7 @@ const Navbar = (props) => {
                 exact="true"
                 offset={80}
                 boderbg={greengb}
+                isHinden={props.show}
               >
                 HOME
               </NavLinks>
@@ -84,6 +80,7 @@ const Navbar = (props) => {
                 exact="true"
                 offset={-80}
                 boderbg={greengb}
+                isHinden={true}
               >
                 CONTACT
               </NavLinks>

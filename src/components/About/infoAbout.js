@@ -1,8 +1,4 @@
-//import { Link } from "react-router-dom"
-import logoSmall from "../../Images/Image.svg";
-
 import PrimaryLOGo from "../../Images/1.JPG";
-
 export const AboutInfo = {
   id: "home",
   lightBg: false,

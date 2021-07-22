@@ -14,8 +14,8 @@ class Annoument extends Component {
   render() {
     return (
       <>
-        <SideBar isOpen={this.state.isOpen} toggle={this.toggle} />
-        <Navbar toggle={this.toggle} />
+        <SideBar isOpen={this.state.isOpen} toggle={this.toggle} show={false} />
+        <Navbar toggle={this.toggle} show={false} />
         <News />
         <div>
           <Footers />

@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const MainCards = styled.div`
   margin: 50px;
+  overflow: hidden;
   @media screen and (max-width: 760px) {
     margin-left: 30px;
     margin-right: 30px;
@@ -54,6 +55,12 @@ export const Cardimage = styled.div`
   background-position: center;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  &:hover {
+    z-index: 1;
+    grid-row: 1/4;
+    border-radius: 10px;
+    background-size: cover;
+  }
 `;
 
 export const Cardtext = styled.div`

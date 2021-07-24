@@ -13,7 +13,7 @@ class TeamPage extends Component {
     return (
       <>
         <SideBar isOpen={this.state.isOpen} toggle={this.toggle} show={false} />
-        <Navbar toggle={this.toggle} show={false} />
+        <Navbar toggle={this.toggle} show={"false"} />
         <TeamMain />
         <Footers />
       </>

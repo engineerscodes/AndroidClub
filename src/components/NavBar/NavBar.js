@@ -32,7 +32,7 @@ const Navbar = (props) => {
                 exact="true"
                 offset={80}
                 boderbg={greengb}
-                isHinden={props.show}
+                ishinden={props.show}
               >
                 HOME
               </NavLinks>
@@ -80,7 +80,7 @@ const Navbar = (props) => {
                 exact="true"
                 offset={-80}
                 boderbg={greengb}
-                isHinden={true}
+                ishinden={"true"}
               >
                 CONTACT
               </NavLinks>

@@ -78,7 +78,7 @@ export const NavLinks = styled(LinkS)`
   cursor: pointer;
   font-size: 20px;
   font-weight: bolder;
-  visibility: ${({ isHinden }) => (isHinden === true ? "visible" : "hidden")};
+  visibility: ${({ ishinden }) => (ishinden === "true" ? "visible" : "hidden")};
   &.active {
     border-bottom: 3.5px solid;
     border-color: ${({ boderbg }) => (boderbg === "true" ? "#01bf71" : "#fff")};

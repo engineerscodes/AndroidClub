@@ -22,7 +22,7 @@ class HomePage extends Component {
     return (
       <>
         <SideBar isOpen={this.state.isOpen} toggle={this.toggle} show={true} />
-        <Navbar toggle={this.toggle} show={true} />
+        <Navbar toggle={this.toggle} show={"true"} />
         <Banner />
         <About {...AboutInfo} />
         <InfoSectionArea />

@@ -77,6 +77,11 @@ export const ParaCard = styled.p`
   margin: 10px;
   padding-bottom: 10px;
   overflow: hidden;
+  height: 140px;
+  @media screen and (max-width: 390px) {
+    overflow: auto;
+    height: 140px;
+  }
 `;
 
 export const CardStats = styled.div`

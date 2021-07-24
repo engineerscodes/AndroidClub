@@ -14,7 +14,6 @@ const EventCrads = (props) => {
   let leftDate;
   function leftdate() {
     let edate = props.edate;
-    console.log(new Date(edate));
     let d1 = new Date(edate).getTime();
     let d2 = new Date().getTime();
     let diff = d1 - d2;

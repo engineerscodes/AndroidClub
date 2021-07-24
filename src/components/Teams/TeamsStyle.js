@@ -3,18 +3,28 @@ import styled from "styled-components";
 export const Team = styled.div`
   box-shadow: 0px 2px 8px 0px white;
   text-align: center;
-  border-radius: 1.5rem;
+  border-radius: 10px;
   position: relative;
   overflow: hidden;
-
+  min-height: 560px;
   background: white;
-
+  width: 300px;
   &:hover {
     cursor: default;
-    transform: rotateY(360deg);
     transition: all 2s ease-in-out 0.5s;
-
-    filter: blur(1px);
+    filter: blur(0.5px);
+  }
+  @media screen and (max-width: 400px) {
+    width: auto;
+    margin-left: 25px;
+    margin-right: 25px;
+    height: fit-content;
+  }
+  @media screen and (max-width: 350px) {
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: fit-content;
   }
 `;
 
@@ -52,6 +62,12 @@ export const Position = styled.h1`
 export const Qutoes = styled.h1`
   margin: 1rem 2rem;
   font-size: 0.9rem;
+  padding-bottom: 5px;
+
+  @media screen and (max-width: 400px) {
+    overflow: auto;
+    height: 120px;
+  }
 `;
 
 export const FollowBtn = styled.button`
@@ -61,6 +77,9 @@ export const FollowBtn = styled.button`
   color: white;
   background-color: #01bf71;
   padding: 1rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 
   &:hover {
     transition: all 0.2s ease-in-out;

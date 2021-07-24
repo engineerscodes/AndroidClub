@@ -18,8 +18,17 @@ function TeamMain() {
 
   return (
     <>
+      <DisplayList>
+        <div style={{ height: "25px" }}></div>
+      </DisplayList>
       <DisplayList id="team">
-        <DisplayH1> CORE TEAM 2020-2021 </DisplayH1>
+        <DisplayH1>
+          {" "}
+          CORE TEAM {new Date().getFullYear()} -{new Date().getFullYear() + 1}{" "}
+        </DisplayH1>
+      </DisplayList>
+      <DisplayList>
+        <div style={{ height: "25px" }}></div>
       </DisplayList>
       <DisplayList>
         <Teamgrid>

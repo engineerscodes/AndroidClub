@@ -10,15 +10,14 @@ import {
 } from "./sideBarStyle";
 
 const SideBar = (props) => {
-  
-  function homeDisplayAction(){
-    if(props.show){
+  function homeDisplayAction() {
+    if (props.show) {
       return (
         <SibeBarLink to="home" onClick={props.toggle}>
           HOME
         </SibeBarLink>
       );
-    }else{
+    } else {
       return (
         <SibeBarLinkRouter to="/AndroidClub" onClick={props.toggle}>
           HOME
@@ -26,7 +25,6 @@ const SideBar = (props) => {
       );
     }
   }
-  
 
   return (
     <div>
@@ -38,7 +36,7 @@ const SideBar = (props) => {
           <SideBarMenu>
             {homeDisplayAction()}
             <SibeBarLinkRouter to="/Events" onClick={props.toggle}>
-              EVENT'S
+              EVENTS
             </SibeBarLinkRouter>
             <SibeBarLinkRouter to="/Team" onClick={props.toggle}>
               TEAM

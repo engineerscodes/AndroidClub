@@ -32,16 +32,19 @@ export const DisplayListEvent = styled.div`
 
 export const Teamgrid = styled.div`
   display: grid;
-  grid-template-columns: minmax(300px, 1fr);
   justify-content: center;
   grid-gap: 2rem;
-  margin: 2rem;
-
-  @media screen and (min-width: 500px) {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  @media screen and (max-width: 950px) {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  @media screen and (min-width: 760px) {
-    grid-template-columns: repeat(4, 1fr);
+  @media screen and (max-width: 710px) {
+    grid-template-columns: repeat(1, 1fr);
   }
+
+  
 `;

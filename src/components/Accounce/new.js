@@ -4,7 +4,7 @@ import "./new.css";
 import axios from "axios";
 
 const New = () => {
-  const baseURL = `http://127.0.0.1:8000/announcement/`;
+  const baseURL = `https://androidclubvitap.herokuapp.com/announcement/`;
   const [announcement, setannouncement] = React.useState(null);
   //const [open, setOpen] = React.useState(true);
   React.useEffect(() => {

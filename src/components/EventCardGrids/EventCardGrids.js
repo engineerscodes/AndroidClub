@@ -2,7 +2,7 @@ import React from "react";
 import "./EventCardStyle.css";
 import axios from "axios";
 const EventCardGrids = () => {
-  const baseURL = `http://127.0.0.1:8000/events/`;
+  const baseURL = `https://androidclubvitap.herokuapp.com/events/`;
   const [Events, setEvents] = React.useState(null);
 
   React.useEffect(() => {

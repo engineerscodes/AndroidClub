@@ -6,7 +6,7 @@ import "./TestTimonialStyle.css";
 import axios from "axios";
 
 function TestTimonialCardComponent() {
-  const baseURL = `http://127.0.0.1:8000/BannerImg/testimony/`;
+  const baseURL = `https://androidclubvitap.herokuapp.com/BannerImg/testimony/`;
   const [Testimony, setTestimony] = React.useState(null);
 
   React.useEffect(() => {

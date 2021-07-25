@@ -5,7 +5,7 @@ import { MainCards } from "./CardStyle";
 import axios from "axios";
 
 function CardComponent() {
-  const baseURL = `http://127.0.0.1:8000/BannerImg/challenges/`;
+  const baseURL = `https://androidclubvitap.herokuapp.com/BannerImg/challenges/`;
   const [Challenges, setChallenges] = React.useState(null);
 
   React.useEffect(() => {

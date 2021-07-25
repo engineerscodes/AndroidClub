@@ -6,7 +6,7 @@ import ButtonRouterLink from "../ReactRouterBtn/ButtonRouterLink";
 import axios from "axios";
 
 const EventList = () => {
-  const baseURL = `http://127.0.0.1:8000/events/info/`;
+  const baseURL = `https://androidclubvitap.herokuapp.com/events/info/`;
   const [Epage, setEpage] = React.useState(null);
 
   React.useEffect(() => {

@@ -3,7 +3,7 @@ import "./SpeakerStyle.css";
 import axios from "axios";
 
 const Speakers = () => {
-  const baseURL = `http://127.0.0.1:8000/events/alert/`;
+  const baseURL = `https://androidclubvitap.herokuapp.com/events/alert/`;
   const [Speaker, setSpeaker] = React.useState(null);
 
   React.useEffect(() => {

@@ -38,7 +38,7 @@ const Navbar = (props) => {
             </NavItem>
             <NavItem>
               <NavLinksRouter
-                to="/Events"
+                to="/AndroidClub/Events"
                 duration={500}
                 exact="true"
                 offset={-80}
@@ -49,7 +49,7 @@ const Navbar = (props) => {
             </NavItem>
             <NavItem>
               <NavLinksRouter
-                to="/Team"
+                to="/AndroidClub/Team"
                 duration={500}
                 exact="true"
                 offset={-80}
@@ -61,7 +61,7 @@ const Navbar = (props) => {
 
             <NavItem>
               <NavLinksRouter
-                to="/ANNOUNCEMENT"
+                to="/AndroidClub/ANNOUNCEMENT"
                 duration={500}
                 exact="true"
                 offset={-80}

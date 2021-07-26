@@ -14,9 +14,9 @@ class App extends Component {
         <div className="App">
           <Switch>
             <Route path="/AndroidClub" component={HomePage} exact />
-            <Route path="/Team" component={TeamPage} />
-            <Route path="/Events" component={Event} />
-            <Route path="/ANNOUNCEMENT" component={Announcement} />
+            <Route path="/AndroidClub/Team" component={TeamPage} />
+            <Route path="/AndroidClub/Events" component={Event} />
+            <Route path="/AndroidClub/ANNOUNCEMENT" component={Announcement} />
           </Switch>
         </div>
       </Router>

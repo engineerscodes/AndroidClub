@@ -35,13 +35,16 @@ const SideBar = (props) => {
         <SideBarWrapper>
           <SideBarMenu>
             {homeDisplayAction()}
-            <SibeBarLinkRouter to="/Events" onClick={props.toggle}>
+            <SibeBarLinkRouter to="/AndroidClub/Events" onClick={props.toggle}>
               EVENTS
             </SibeBarLinkRouter>
-            <SibeBarLinkRouter to="/Team" onClick={props.toggle}>
+            <SibeBarLinkRouter to="/AndroidClub/Team" onClick={props.toggle}>
               TEAM
             </SibeBarLinkRouter>
-            <SibeBarLinkRouter to="/ANNOUNCEMENT" onClick={props.toggle}>
+            <SibeBarLinkRouter
+              to="/AndroidClub/ANNOUNCEMENT"
+              onClick={props.toggle}
+            >
               ANNOUNCEMENT
             </SibeBarLinkRouter>
             <SibeBarLink to="contact" onClick={props.toggle}>

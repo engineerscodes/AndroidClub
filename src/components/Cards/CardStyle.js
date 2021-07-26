@@ -27,22 +27,32 @@ export const Card = styled.div`
   grid-template-columns: 300px;
   grid-template-rows: 190px 275px 100px;
   grid-template-areas: "images" "texts" "stats";
-
   border-radius: 28px;
   background-color: white;
   box-shadow: 5px 5px 15px black;
   text-align: center;
 
   @media screen and (max-width: 440px) {
-    grid-template-columns: 250px;
     grid-template-rows: 190px 290px 100px;
   }
 
   @media screen and (max-width: 400px) {
-    grid-template-columns: 200px;
     grid-template-rows: 190px 310px 100px;
   }
-  @media screen and (max-width: 350px) {
+  @media screen and (max-width: 380px) {
+    grid-template-columns: 280px;
+    grid-template-rows: 190px 310px 100px;
+  }
+  @media screen and (max-width: 360px) {
+    grid-template-columns: 250px;
+    grid-template-rows: 190px 310px 100px;
+  }
+
+  @media screen and (max-width: 340px) {
+    grid-template-columns: 220px;
+    grid-template-rows: 190px 310px 100px;
+  }
+  @media screen and (max-width: 320px) {
     grid-template-columns: 180px;
     grid-template-rows: 190px 310px 100px;
   }

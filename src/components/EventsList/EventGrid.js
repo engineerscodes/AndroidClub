@@ -20,11 +20,5 @@ export const Teamgrids = styled.div`
     grid-template-columns: repeat(1, 300px);
   }
 
-  @media screen and (max-width: 440px) {
-    grid-template-columns: 250px;
-  }
-
-  @media screen and (max-width: 400px) {
-    grid-template-columns: 200px;
-  }
+  
 `;

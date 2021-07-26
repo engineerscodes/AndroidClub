@@ -13,7 +13,6 @@ class App extends Component {
         <ScrollToTop />
         <div className="App">
           <Switch>
-            <Route path="/" component={HomePage} exact />
             <Route path="/AndroidClub" component={HomePage} exact />
             <Route path="/AndroidClub/Team" component={TeamPage} />
             <Route path="/AndroidClub/Events" component={Event} />

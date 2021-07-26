@@ -4,17 +4,29 @@ import EventCrads from "./EventCrads";
 import { DisplayListEvent, DisplayH1 } from "../Teams/TeamMainStyled";
 import ButtonRouterLink from "../ReactRouterBtn/ButtonRouterLink";
 import axios from "axios";
-
+import useSWR from "swr";
+import { SunspotLoader } from "react-awesome-loaders";
 const EventList = () => {
   const baseURL = `https://androidclubvitap.herokuapp.com/events/info/`;
-  const [Epage, setEpage] = React.useState(null);
+  const fetcher = (url) => axios.get(url).then((res) => res.data);
+  const { data, error } = useSWR(baseURL, fetcher, {
+    revalidateOnFocus: false,
+  });
 
-  React.useEffect(() => {
-    axios.get(baseURL).then((response) => {
-      setEpage(response.data);
-    });
-  }, []);
-  if (!Epage) return null;
+  if (error) return <div>failed to load</div>;
+  if (!data)
+    return (
+      <div className="eventloaderSPEAKERCONSTAINER" id="announcement">
+        <div id="loader">
+          <SunspotLoader
+            gradientColors={["#00eda1", "#074127"]}
+            shadowColor={"#3ffca8"}
+            desktopSize={"250px"}
+            mobileSize={"175px"}
+          />
+        </div>
+      </div>
+    );
 
   return (
     <>
@@ -27,13 +39,12 @@ const EventList = () => {
 
       <DisplayListEvent>
         <Teamgrids>
-          {Epage.data.map((data, index) => (
+          {data.data.map((data, index) => (
             <EventCrads
               key={index}
               cardText={data.about}
               cardTitles={data.EventName.toUpperCase()}
               edate={data.EventDate}
-              // image="https://github.com/engineerscodes/engineerscodes/blob/master/Img/Android-Studio-64-bit.jpg?raw=true"
               image={data.EventImgUrl}
               links="https://www.android.com"
               evenue={data.venue}
@@ -53,3 +64,9 @@ const EventList = () => {
 };
 
 export default EventList;
+
+/*
+
+ 
+
+*/

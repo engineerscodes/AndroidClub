@@ -1,18 +1,32 @@
 import React from "react";
 import "./SpeakerStyle.css";
 import axios from "axios";
+import useSWR from "swr";
+import { BoltLoader } from "react-awesome-loaders";
 
 const Speakers = () => {
   const baseURL = `https://androidclubvitap.herokuapp.com/events/alert/`;
-  const [Speaker, setSpeaker] = React.useState(null);
+  const fetcher = (url) => axios.get(url).then((res) => res.data);
+  const { data, error } = useSWR(baseURL, fetcher, {
+    revalidateOnFocus: false,
+  });
 
-  React.useEffect(() => {
-    axios.get(baseURL).then((response) => {
-      setSpeaker(response.data);
-    });
-  }, []);
-  if (!Speaker) return null;
-  const links = Speaker.data.events.RegisterLink;
+  if (error) return <div>failed to load</div>;
+  if (!data)
+    return (
+      <div className="loaderSPEAKERCONSTAINER" id="announcement">
+        <div id="loader">
+          <BoltLoader
+            className={"loaderbolt"}
+            boltColor={"#20DEA0"}
+            backgroundBlurColor={"#616968"}
+            desktopsize={"128px"}
+            height={350}
+          />
+        </div>
+      </div>
+    );
+  const links = data.data.events.RegisterLink;
   function flinkp(link) {
     if (link === "") {
       console.log("Wait for link !!!");
@@ -27,21 +41,21 @@ const Speakers = () => {
           <div className="spk1">
             <img
               className="spk1img"
-              src={Speaker.data.speakers.SpkImg}
-              alt={Speaker.data.speakers.speakerName.toUpperCase()}
+              src={data.data.speakers.SpkImg}
+              alt={data.data.speakers.speakerName.toUpperCase()}
             />
           </div>
 
           <div className="spk2">
             <h1 className="spk2h1">EVENT ALERT </h1>
             <h2 className="spk2h2">
-              {Speaker.data.speakers.speakerName.toUpperCase()}
+              {data.data.speakers.speakerName.toUpperCase()}
             </h2>
             <h2 className="spk2h2">
-              {Speaker.data.speakers.Designation.toUpperCase()}
+              {data.data.speakers.Designation.toUpperCase()}
             </h2>
             <h3 className="spk2h3">
-              {Speaker.data.events.EventDate.toUpperCase()}
+              {data.data.events.EventDate.toUpperCase()}
             </h3>
 
             <button className="SpeakerButton" onClick={() => flinkp(links)}>
@@ -55,3 +69,7 @@ const Speakers = () => {
 };
 
 export default Speakers;
+
+/*
+
+*/

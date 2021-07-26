@@ -130,3 +130,50 @@
     }
 
 }
+
+.loaderSPEAKERCONSTAINER {
+    height: 500px;
+    background-color: #F8F8F8;
+}
+
+
+#loader{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.eventloaderSPEAKERCONSTAINER{
+      height: 580px;
+      background-color: #000000;
+}
+
+#eventloader {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+}
+
+.loaderTeam {
+   background-color:  #010606;
+   height: 500px;
+}
+
+.loaderevents {
+    height: 500px;
+    background-color: #ffffff;
+}
+
+.loadertest{
+     height: 100px;
+     background-color: #ffffff;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 25px;
+     margin-bottom: 25px;
+}

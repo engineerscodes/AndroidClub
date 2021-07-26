@@ -3,18 +3,35 @@ import Carousel from "react-elastic-carousel";
 import style from "./StyleButtons.css";
 import { MainCards } from "./CardStyle";
 import axios from "axios";
+import useSWR from "swr";
+import { BoltLoader } from "react-awesome-loaders";
+
 
 function CardComponent() {
   const baseURL = `https://androidclubvitap.herokuapp.com/BannerImg/challenges/`;
-  const [Challenges, setChallenges] = React.useState(null);
+  const fetcher = (url) => axios.get(url).then((res) => res.data);
+  const { data, error } = useSWR(baseURL, fetcher, {
+    revalidateOnFocus: false,
+  });
 
-  React.useEffect(() => {
-    axios.get(baseURL).then((response) => {
-      setChallenges(response.data);
-    });
-  }, []);
-  if (!Challenges) return null;
+  if (error) return <div>failed to load</div>;
+   if (!data)
+     return (
+       <div className="NaveenCard" style={style}>
+         <div className="brStyleCard" style={style}></div>
+         <h1 className="EventTilesInfo">CHALLENGES</h1>
 
+         <div id="CHALLENGESimg">
+           <BoltLoader
+             className={"loaderbolt"}
+             boltColor={"#20DEA0"}
+             backgroundBlurColor={"#616968"}
+             desktopsize={"128px"}
+             height={350}
+           />
+         </div>
+       </div>
+     );
   return (
     <>
       <div className="NaveenCard" style={style}>
@@ -23,7 +40,7 @@ function CardComponent() {
 
         <div className="CarouselWidthController" style={style}>
           <Carousel breakPoints={breakPoints} style={style}>
-            {Challenges.data
+            {data.data
               .slice(0)
               .reverse()
               .map((data, index) => (

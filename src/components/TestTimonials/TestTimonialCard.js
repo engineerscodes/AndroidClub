@@ -1,25 +1,36 @@
 import React from "react";
-
 import Carousel from "react-elastic-carousel";
-
+import useSWR from "swr";
 import "./TestTimonialStyle.css";
 import axios from "axios";
+import { FlipFlopLoader } from "react-awesome-loaders";
 
 function TestTimonialCardComponent() {
   const baseURL = `https://androidclubvitap.herokuapp.com/BannerImg/testimony/`;
-  const [Testimony, setTestimony] = React.useState(null);
-
-  React.useEffect(() => {
-    axios.get(baseURL).then((response) => {
-      setTestimony(response.data);
-    });
-  }, []);
-  if (!Testimony) return null;
-
+  const fetcher = (url) => axios.get(url).then((res) => res.data);
+  const { data, error } = useSWR(baseURL, fetcher, {
+    revalidateOnFocus: false,
+  });
+  if (error) return <div>failed to load</div>;
+  if (!data)
+    return (
+      <>
+        <div className="loadertest">
+          <FlipFlopLoader
+            desktopSize={"128px"}
+            mobileSize={"128px"}
+            textColor={"#20DEA0"}
+            textBeforeRing={"L"}
+            textAfterRing={"ADING..."}
+            ringColor={"#D3D3D3"}
+          />
+        </div>
+      </>
+    );
   return (
     <>
       <Carousel breakPoints={breakPoints} className="TestMon">
-        {Testimony.data.map((data, index) => (
+        {data.data.map((data, index) => (
           <TsMainCard
             image={data.TestimonialImgUrl}
             key={index}

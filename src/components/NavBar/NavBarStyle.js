@@ -45,9 +45,11 @@ export const NavLogo = styled(LinkR)`
 export const MobileIcon = styled.div`
   display: none;
   position: absolute;
-  top: 0;
-  right: 0;
-  transform: translate(-100%, 60%);
+  top: 0 !important;
+  right: 0 !important;
+  width: 30px;
+  height: 36px;
+  transform: translate(-100%, 60%) !important;
   font-size: 1.8rem;
   cursor: pointer;
   color: #fff;

@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/AndroidClub/static/css/main.e9e08db3.chunk.css",
-    "main.js": "/AndroidClub/static/js/main.add7be6a.chunk.js",
-    "main.js.map": "/AndroidClub/static/js/main.add7be6a.chunk.js.map",
+    "main.js": "/AndroidClub/static/js/main.aff9a13f.chunk.js",
+    "main.js.map": "/AndroidClub/static/js/main.aff9a13f.chunk.js.map",
     "runtime-main.js": "/AndroidClub/static/js/runtime-main.c20debe8.js",
     "runtime-main.js.map": "/AndroidClub/static/js/runtime-main.c20debe8.js.map",
     "static/js/2.52503915.chunk.js": "/AndroidClub/static/js/2.52503915.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.c20debe8.js",
     "static/js/2.52503915.chunk.js",
     "static/css/main.e9e08db3.chunk.css",
-    "static/js/main.add7be6a.chunk.js"
+    "static/js/main.aff9a13f.chunk.js"
   ]
 }

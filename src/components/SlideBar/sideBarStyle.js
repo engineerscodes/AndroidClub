@@ -92,7 +92,7 @@ export const SibeBarLinkA = styled.a`
   text-decoration: none;
   list-style: none;
   transition: 0.2s ease-in-out;
-  cousor: pointer;
+  cursor: pointer;
 
   &:hover {
     color: #01bf71;

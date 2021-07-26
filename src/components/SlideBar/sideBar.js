@@ -11,7 +11,7 @@ import {
 
 const SideBar = (props) => {
   function homeDisplayAction() {
-    if (props.show) {
+    if (props.show === "true") {
       return (
         <SibeBarLink to="home" onClick={props.toggle}>
           HOME

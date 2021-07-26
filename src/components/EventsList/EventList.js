@@ -56,17 +56,12 @@ const EventList = () => {
       </DisplayListEvent>
 
       <DisplayListEvent>
-        {" "}
-        <ButtonRouterLink gotoPage={"/AndroidClub"} textdes={"Home"} />
+          
+          <ButtonRouterLink />
+          
       </DisplayListEvent>
     </>
   );
 };
-
 export default EventList;
 
-/*
-
- 
-
-*/

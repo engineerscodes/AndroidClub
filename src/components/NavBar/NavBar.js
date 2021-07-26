@@ -18,7 +18,6 @@ const Navbar = (props) => {
       <Nav>
         <NavBarContainer>
           <NavLogo to="/AndroidClub">ANDROID CLUB</NavLogo>
-
           <MobileIcon onClick={props.toggle}>
             <FaBars />
           </MobileIcon>

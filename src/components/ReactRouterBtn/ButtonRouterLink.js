@@ -1,11 +1,9 @@
 import React from "react";
 import { ButtonLink } from "./ButtonRouterLinkStyle";
 
-const ButtonRouterLink = (props) => {
+const ButtonRouterLink = () => {
   return (
-    <>
-      <ButtonLink to={props.gotoPage}>{props.textdes}</ButtonLink>
-    </>
+     <ButtonLink to="/AndroidClub" >HOME</ButtonLink>
   );
 };
 

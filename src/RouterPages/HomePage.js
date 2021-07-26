@@ -21,7 +21,7 @@ class HomePage extends Component {
   render() {
     return (
       <>
-        <SideBar isOpen={this.state.isOpen} toggle={this.toggle} show={true} />
+        <SideBar isOpen={this.state.isOpen} toggle={this.toggle} show={"true"} />
         <Navbar toggle={this.toggle} show={"true"} />
         <Banner />
         <About {...AboutInfo} />

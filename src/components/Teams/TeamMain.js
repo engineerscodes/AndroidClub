@@ -60,7 +60,7 @@ function TeamMain() {
          </DisplayList>
 
          <DisplayList>
-           <ButtonRouterLink gotoPage={"/AndroidClub"} textdes={"Home"} />
+           <ButtonRouterLink gotoPage={"/AndroidClub"} textdes={"Home"} key={"teamtohome"} />
          </DisplayList>
        </>
      );

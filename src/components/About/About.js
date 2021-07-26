@@ -53,7 +53,7 @@ const About = ({
 
                   <LinkWrapper>
                     <ExternalLink to={{ pathname: eventLinks }} target="_blank">
-                      {Linkdisc}{" "}
+                      {Linkdisc}
                     </ExternalLink>
                   </LinkWrapper>
                 </EventSwrapper>
@@ -61,7 +61,7 @@ const About = ({
             </Column1>
             <Column2>
               <ImgWrap>
-                <div className="Youtube">
+                <div id="Youtubeplayerac">
                   <iframe
                     src={img}
                     width="450px"

@@ -18,8 +18,8 @@ export const ButtonLink = styled(LinkR)`
   margin: 50px auto;
   margin-bottom: 50px;
   visibility: visible !important;
-  width: 46px;
-  height: 20px;
+  width: 46px !important;
+  height: 20px !important;
   &:hover {
     transition: all 0.2s ease-in-out;
     background: #fff;

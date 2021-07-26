@@ -46,7 +46,6 @@ const EventList = () => {
               cardTitles={data.EventName.toUpperCase()}
               edate={data.EventDate}
               image={data.EventImgUrl}
-              links="https://www.android.com"
               evenue={data.venue}
               ejoin={data.joinLink}
               rlink={data.RegisterLink}

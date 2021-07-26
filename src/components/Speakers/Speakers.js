@@ -45,7 +45,6 @@ const Speakers = () => {
               alt={data.data.speakers.speakerName.toUpperCase()}
             />
           </div>
-
           <div className="spk2">
             <h1 className="spk2h1">EVENT ALERT </h1>
             <h2 className="spk2h2">

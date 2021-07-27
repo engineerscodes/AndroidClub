@@ -1,9 +1,5 @@
-# Git PAGE LINK -https://engineerscodes.github.io/AndroidClub V1.5 ( SAMPLE)
 
-# Alternative LINK V1 -https://engineerscodes.github.io/Roundhead/ 
-
-
-#  React App
+#  React App AND DJANGO
 
 
 # NETLIFY LINK 
@@ -19,3 +15,8 @@
   <img src="https://avatars.githubusercontent.com/u/74130663?s=200&v=4" height="300px" >
   
    </p>
+
+
+# Git PAGE LINK -https://engineerscodes.github.io/AndroidClub V1.5 ( SAMPLE)
+
+# Alternative LINK V1 -https://engineerscodes.github.io/Roundhead/ 

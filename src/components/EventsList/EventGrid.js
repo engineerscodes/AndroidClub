@@ -19,6 +19,10 @@ export const Teamgrids = styled.div`
   @media screen and (max-width: 720px) {
     grid-template-columns: repeat(1, 300px);
   }
-
-  
+  @media screen and (max-width: 320px) {
+    grid-template-columns: repeat(1, 280px);
+  }
+  @media screen and (max-width: 320px) {
+    grid-template-columns: repeat(1, 150px);
+  }
 `;

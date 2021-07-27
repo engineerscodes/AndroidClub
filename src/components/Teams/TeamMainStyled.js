@@ -3,12 +3,6 @@ import styled from "styled-components";
 export const DisplayList = styled.div`
   display: flex;
   background: #010606;
-
-  @media screen and (max-width: 768px) {
-  }
-
-  @media screen and (max-width: 480px) {
-  }
 `;
 
 export const DisplayH1 = styled.h1`
@@ -22,6 +16,10 @@ export const DisplayH1 = styled.h1`
 
   @media screen and (max-width: 480px) {
     font-size: 2rem;
+  }
+  @media screen and (max-width: 330px) {
+    font-size: 1.5rem;
+    padding: 5px auto 25px auto !important;
   }
 `;
 

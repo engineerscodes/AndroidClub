@@ -9,6 +9,7 @@ import {
   CStat,
   AchorTag,
   Lefts,
+  HeadingText,
 } from "../Cards/CardStyle";
 const EventCrads = (props) => {
   let leftDate;
@@ -30,9 +31,9 @@ const EventCrads = (props) => {
       <Card>
         <Cardimage backgrounds={props.image}></Cardimage>
         <Cardtext>
-          <h1 style={({ height: "38px" ,fontSize: "1.5vw" })}>
+          < HeadingText >
             {props.cardTitles}
-          </h1>
+            </HeadingText>
           <h3>DATE : {props.edate.split("-").reverse().join("-")}</h3>
           <h3>VENUE : {props.evenue}</h3>
           <ParaCard>{props.cardText}</ParaCard>

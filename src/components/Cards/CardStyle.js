@@ -53,7 +53,11 @@ export const Card = styled.div`
     grid-template-rows: 190px 310px 100px;
   }
   @media screen and (max-width: 320px) {
-    grid-template-columns: 180px;
+    grid-template-columns: 200px;
+    grid-template-rows: 190px 310px 100px;
+  }
+  @media screen and (max-width: 300px) {
+    grid-template-columns: 150px;
     grid-template-rows: 190px 310px 100px;
   }
 `;
@@ -147,3 +151,22 @@ export const Lefts = styled.h3`
     font-size: 14px;
   }
 `;
+
+export const HeadingText = styled.h1`
+  height: 38px;
+  font-size: 1.5vw;
+  font-weight: bold;
+
+  @media screen and (max-width: 960px) {
+    font-size: 2vw;
+  }
+
+  @media screen and (max-width: 690px) {
+    font-size: 2.5vw;
+  }
+  @media screen and (max-width: 530px) {
+    font-size: 4vw;
+  }
+`;
+
+

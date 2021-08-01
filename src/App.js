@@ -6,6 +6,7 @@ import HomePage from "./RouterPages/HomePage";
 import ScrollToTop from "./components/ScrollToTop";
 import TeamPage from "./RouterPages/TeamPage";
 import Announcement from "./RouterPages/Announcement";
+import NotFound from "./RouterPages/NotFound404";
 class App extends Component {
   render() {
     return (
@@ -13,11 +14,12 @@ class App extends Component {
         <ScrollToTop />
         <div className="App">
           <Switch>
-             <Route path="/" component={HomePage} exact />
+            <Route path="/" component={HomePage} exact />
             <Route path="/AndroidClub" component={HomePage} exact />
             <Route path="/AndroidClub/Team" component={TeamPage} />
             <Route path="/AndroidClub/Events" component={Event} />
             <Route path="/AndroidClub/ANNOUNCEMENT" component={Announcement} />
+            <Route component={NotFound} />
           </Switch>
         </div>
       </Router>

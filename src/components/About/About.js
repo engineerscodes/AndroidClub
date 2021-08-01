@@ -52,7 +52,7 @@ const About = ({
                   <Subtitle darkText={darkText}>{venu}</Subtitle>
 
                   <LinkWrapper>
-                    <ExternalLink to={{ pathname: eventLinks }} target="_blank">
+                    <ExternalLink to={{ pathname: eventLinks }} target="_blank" rel="noreferrer">
                       {Linkdisc}
                     </ExternalLink>
                   </LinkWrapper>

@@ -28,6 +28,7 @@ const Footers = () => {
               <Footertext
                 to={{ pathname: "https://vitap.ac.in/android-club-2/" }}
                 target="_blank"
+                rel="noreferrer"
               >
                 {" "}
                 VIT-AP
@@ -35,6 +36,7 @@ const Footers = () => {
               <Footertext
                 to={{ pathname: "https://discord.gg/X4wHTzk" }}
                 target="_blank"
+                rel="noreferrer"
               >
                 {" "}
                 Discord Server
@@ -44,6 +46,7 @@ const Footers = () => {
                   pathname: "https://www.instagram.com/androidclubvitap/?hl=en",
                 }}
                 target="_blank"
+                rel="noreferrer"
               >
                 {" "}
                 Instagram
@@ -58,6 +61,7 @@ const Footers = () => {
                     "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=mknaveen837@gmail.com",
                 }}
                 target="_blank"
+                rel="noreferrer"
               >
                 {" "}
                 Gmail
@@ -68,6 +72,7 @@ const Footers = () => {
                     "https://www.linkedin.com/company/android-club-vit-ap",
                 }}
                 target="_blank"
+                rel="noreferrer"
               >
                 {" "}
                 LinKedIn{" "}
@@ -75,6 +80,7 @@ const Footers = () => {
               <Footertext
                 to={{ pathname: "https://github.com/Android-Club-VITAP" }}
                 target="_blank"
+                rel="noreferrer"
               >
                 {" "}
                 GITHUB{" "}
@@ -91,12 +97,11 @@ const Footers = () => {
                     "https://github.com/Android-Club-VITAP/VTOP-Extended",
                 }}
                 target="_blank"
+                rel="noreferrer"
               >
                 {" "}
                 VTOP-Extended
               </Footertext>
-              {/* <Footertext to=""> Vit-AP</Footertext>
-                 <Footertext to=""> Vit-AP</Footertext> */}
               <FootertextHide to="/AndroidClub">Vit </FootertextHide>
               <FootertextHide to="/AndroidClub"> Vit </FootertextHide>
             </FooterItems>
@@ -119,6 +124,7 @@ const Footers = () => {
                 href="//www.instagram.com/androidclubvitap/?hl=en"
                 target="_blank"
                 aria-label="Instagram"
+                rel="noreferrer"
               >
                 {" "}
                 <FaInstagram />{" "}
@@ -127,6 +133,7 @@ const Footers = () => {
                 href="//discord.gg/X4wHTzk"
                 target="_blank"
                 aria-label="Discord"
+                rel="noreferrer"
               >
                 {" "}
                 <SiDiscord />{" "}
@@ -135,6 +142,7 @@ const Footers = () => {
                 href="//github.com/Android-Club-VITAP"
                 target="_blank"
                 aria-label="GitHub"
+                rel="noreferrer"
               >
                 {" "}
                 <FaGithub />{" "}
@@ -143,6 +151,7 @@ const Footers = () => {
                 href="//mail.google.com/mail/?view=cm&fs=1&tf=1&to=mknaveen837@gmail.com"
                 target="_blank"
                 aria-label="G-mail"
+                rel="noreferrer"
               >
                 {" "}
                 <SiGmail />{" "}
